@@ -3,7 +3,7 @@ import { useLanguage } from '../context/LanguageContext';
 import styles from './Header.module.css';
 
 const Header = () => {
-  const { toggleLanguage, t } = useLanguage();
+  const { toggleLanguage, t, language } = useLanguage();
 
   const linkClass = ({ isActive }: { isActive: boolean }) =>
     isActive ? `${styles.navLink} ${styles.active}` : styles.navLink;
@@ -37,7 +37,7 @@ const Header = () => {
         <div className={styles.actions}>
           <a
             className={styles.cvButton}
-            href="/assets/FerRicardez_CV.pdf"
+            href={language === 'es' ? '/assets/CV_Fer_Ricardez_espanol.pdf' : '/assets/CV_Fer_Ricardez_english.pdf'}
             target="_blank"
             rel="noopener noreferrer"
           >

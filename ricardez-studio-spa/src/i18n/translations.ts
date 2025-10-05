@@ -1,4 +1,4 @@
-﻿export type LanguageKey = 'en' | 'es';
+export type LanguageKey = 'en' | 'es';
 
 type CVSection = {
   title: string;
@@ -75,7 +75,7 @@ export const translations: Record<LanguageKey, Translation> = {
     nav: {
       home: 'Home',
       works: 'Selected Works',
-      about: 'About',
+      about: 'Bio',
       instagram: 'Instagram',
       cv: 'Download CV',
     },
@@ -107,42 +107,47 @@ export const translations: Record<LanguageKey, Translation> = {
       },
     },
     about: {
-      pageTitle: 'About',
+      pageTitle: 'Bio',
       bio: [
-        'Fernando Manuel Ricárdez Lara (Fer Ricárdez) is a multidisciplinary visual artist from León, Guanajuato. His practice bridges painting, installation, and site-responsive projects that celebrate the cultural pulse of central Mexico.',
-        'Ricárdez studied Visual Arts at Universidad De La Salle Bajío and has participated in residencies and public art programs throughout Mexico. His work has been exhibited across the country and is part of private collections in Mexico and the United States.',
+        'Fernando Manuel Ric\u00e1rdez Lara (Le\u00f3n, Guanajuato, 1995) is a computer systems engineer from Universidad La Salle Baj\u00edo. He combines technological training with an artistic practice focused on disability, illness, and memory. His work transforms personal experiences, such as the diagnosis and surgery of a macro pituitary adenoma, into pictorial narratives that move between the surreal and the autobiographical. In 2025 he received the PECDA Guanajuato grant, was selected for the P\u00e9rez Romo Biennial and the XV Joaqu\u00edn Clausell National Painting Biennial, and earned an Honorable Mention at the XI University Biennial of Contemporary Art. His exhibitions include solo and group shows in Mexico and abroad, highlighted by his first solo presentation at the Congress of the State of Guanajuato.',
       ],
       cvTitle: 'Curriculum Vitae',
       cvSections: [
         {
-          title: 'Education',
+          title: 'Recognitions & Awards',
           items: [
-            '2016 — Bachelor of Visual Arts, Universidad De La Salle Bajío, León, MX',
-            '2019 — Residency, Centro de las Artes de Guanajuato, Salamanca, MX',
-          ],
-        },
-        {
-          title: 'Awards & Recognitions',
-          items: [
-            '2024 — FONCA Young Creators Grant, Painting',
-            '2022 — Municipal Institute of Art & Culture Grant, León',
+            '2025 - Program for the Stimulus to Creation and Artistic Development (PECDA), Government of Mexico / Guanajuato',
+            '2025 - Honorable Mention (Emerging Artist), XI National University Biennial of Contemporary Art, UABC Tijuana',
+            '2025 - Co-responsibility Grant for Artistic, Cultural & Creative Talent Incubation, IMJU Leon',
+            '2024 - First Place, "Sin Barreras" International Art Competition, Argentina',
           ],
         },
         {
           title: 'Solo Exhibitions',
           items: [
-            '2025 — "Cartografías de Color", Museo de Arte e Historia de Guanajuato, León',
-            '2023 — "Trama Resonante", Galería Aurora, San Miguel de Allende',
+            "2025 - 'Fragmentos de un recuerdo espinal', Santa Fe Cultural Center, Congress of the State of Guanajuato, May-June",
           ],
         },
         {
-          title: 'Group Exhibitions',
+          title: 'Education & Training',
           items: [
-            '2024 — "Fronteras Mutables", Espacio Alterno, Guadalajara',
-            '2023 — "Topografías Cercanas", Casa de la Cultura Diego Rivera, Guanajuato',
-            '2022 — "Nuevos Relatos", Centro de las Artes de Guanajuato, Salamanca',
+            '2024-present - Extension Culture Open Workshops, Universidad de Guanajuato',
+            '2024-present - Private painting lessons with Jose Juan Castro Escobedo',
+            '2024-present - Private painting lessons with Oliver Esquivel Morales',
+            '2015-2019 - Software and Computer Systems Engineering, Universidad La Salle Bajio',
           ],
         },
+        {
+          title: 'Selected Group Exhibitions',
+          items: [
+            '2025 - Dr. Perez Romo Painting Biennial, UAA, Aguascalientes',
+            '2024 - SinBarreras.org exhibition, Asociacion Civil por la Igualdad y la Justicia / Asociacion Azul / Red Latinoamericana por la Vida Independiente, Argentina',
+            '2025 - XV Joaquin Clausell Biennial, UACAM, Campeche',
+            '2025 - 62nd Art of Possibilities Art Show & Sale, Courage Kenny Rehabilitation Institute, Minnesota, USA',
+            '2025 - XI National University Biennial of Contemporary Art, Sala de Arte Alvaro Blancarte, Tijuana',
+          ],
+        },
+
       ],
       portraitAlt: 'Portrait of Fer Ricárdez',
     },
@@ -177,7 +182,7 @@ export const translations: Record<LanguageKey, Translation> = {
     nav: {
       home: 'Inicio',
       works: 'Obra Seleccionada',
-      about: 'Perfil',
+      about: 'Bio',
       instagram: 'Instagram',
       cv: 'Descargar CV',
     },
@@ -209,42 +214,47 @@ export const translations: Record<LanguageKey, Translation> = {
       },
     },
     about: {
-      pageTitle: 'Perfil',
+      pageTitle: 'Bio',
       bio: [
-        'Fernando Manuel Ricárdez Lara (Fer Ricárdez) es un artista visual multidisciplinario originario de León, Guanajuato. Su práctica conecta la pintura, la instalación y proyectos de sitio específico que celebran el pulso cultural del centro de México.',
-        'Ricárdez estudió Artes Visuales en la Universidad De La Salle Bajío y ha participado en residencias y programas de arte público en todo México. Su obra se ha exhibido en distintos espacios del país y forma parte de colecciones privadas en México y Estados Unidos.',
+        'Fernando Manuel Ric\u00e1rdez Lara (Le\u00f3n, Guanajuato, 1995). Ingeniero en Sistemas Computacionales por la Universidad La Salle Baj\u00edo, combina su formaci\u00f3n tecnol\u00f3gica con una pr\u00e1ctica art\u00edstica marcada por la exploraci\u00f3n de la discapacidad, la enfermedad y la memoria. Su obra transforma experiencias personales, como el diagn\u00f3stico y la cirug\u00eda de un macroadenoma hipofisario, en narrativas pict\u00f3ricas que dialogan entre lo surreal y lo autobiogr\u00e1fico. En 2025 obtuvo el PECDA Guanajuato, fue seleccionado en la Bienal P\u00e9rez Romo, en la XV Bienal Nacional de Pintura Joaqu\u00edn Clausell y recibi\u00f3 Menci\u00f3n Honor\u00edfica en la XI Bienal Universitaria de Arte Contempor\u00e1neo. Ha participado en exposiciones individuales y colectivas en M\u00e9xico y en el extranjero, destacando su primera muestra individual en el Congreso del Estado de Guanajuato.',
       ],
       cvTitle: 'Currículum',
       cvSections: [
         {
-          title: 'Formación',
+          title: 'Reconocimientos y Premios',
           items: [
-            '2016 — Licenciatura en Artes Visuales, Universidad De La Salle Bajío, León, MX',
-            '2019 — Residencia, Centro de las Artes de Guanajuato, Salamanca, MX',
-          ],
-        },
-        {
-          title: 'Premios y Distinciones',
-          items: [
-            '2024 — Jóvenes Creadores FONCA, Pintura',
-            '2022 — Becario del Instituto Municipal de Arte y Cultura, León',
+            '2025 - Programa de Estimulo a la Creacion y Desarrollo Artistico (PECDA), Gobierno de Mexico / Guanajuato',
+            '2025 - Mencion Honorifica como artista emergente, XI Bienal Nacional Universitaria de Arte Contemporaneo, UABC Tijuana',
+            '2025 - Beca de Corresponsabilidad para la Incubacion de Talento Artistico, Cultural y Creativo, IMJU Leon',
+            '2024 - Primer Lugar, Concurso Internacional de Arte "Sin Barreras", Argentina',
           ],
         },
         {
           title: 'Exposiciones Individuales',
           items: [
-            '2025 — "Cartografías de Color", Museo de Arte e Historia de Guanajuato, León',
-            '2023 — "Trama Resonante", Galería Aurora, San Miguel de Allende',
+            '2025 - "Fragmentos de un recuerdo espinal", Centro Cultural Santa Fe, Congreso del Estado de Guanajuato, mayo-junio 2025',
           ],
         },
         {
-          title: 'Exposiciones Colectivas',
+          title: 'Estudios',
           items: [
-            '2024 — "Fronteras Mutables", Espacio Alterno, Guadalajara',
-            '2023 — "Topografías Cercanas", Casa de la Cultura Diego Rivera, Guanajuato',
-            '2022 — "Nuevos Relatos", Centro de las Artes de Guanajuato, Salamanca',
+            '2024 a la fecha - Talleres Libres de Extension Cultural, Universidad de Guanajuato',
+            '2024 a la fecha - Clases privadas de pintura con Jose Juan Castro Escobedo',
+            '2024 a la fecha - Clases privadas de pintura con Oliver Esquivel Morales',
+            '2015-2019 - Ingenieria en Software y Sistemas Computacionales, Universidad La Salle Bajio',
           ],
         },
+        {
+          title: 'Exposiciones Colectivas (Seleccion)',
+          items: [
+            '2025 - Bienal de Pintura "Dr Perez Romo", UAA, Aguascalientes',
+            '2024 - Concursosinbarreras.org, Asociacion Civil por la Igualdad y la Justicia / Asociacion Azul / Red Latinoamericana por la Vida Independiente, Argentina',
+            '2025 - XV Bienal Joaquin Clausell, UACAM, Campeche',
+            '2025 - 62nd Art of Possibilities Art Show & Sale, Courage Kenny Rehabilitation Institute, Minnesota, USA',
+            '2025 - XI Bienal Nacional Universitaria de Arte Contemporaneo, Sala de Arte Alvaro Blancarte, Tijuana',
+          ],
+        },
+
       ],
       portraitAlt: 'Retrato de Fer Ricárdez',
     },

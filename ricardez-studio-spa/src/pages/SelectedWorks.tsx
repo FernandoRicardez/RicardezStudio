@@ -1,16 +1,18 @@
 ﻿import { useMemo, useState } from 'react';
-import { artworks, type Artwork } from '../data/artworks';
+import { artworks, type Artwork, type LocalizedText } from '../data/artworks';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './SelectedWorks.module.css';
 
 const SelectedWorks = () => {
-  const { t } = useLanguage();
+  const { t, language } = useLanguage();
   const [activeArtwork, setActiveArtwork] = useState<Artwork | null>(null);
 
   const sortedArtworks = useMemo(
     () => [...artworks].sort((a, b) => b.year - a.year),
     []
   );
+
+  const resolve = (text: LocalizedText) => text[language];
 
   return (
     <div className={styles.page}>
@@ -27,11 +29,11 @@ const SelectedWorks = () => {
             className={styles.card}
             onClick={() => setActiveArtwork(artwork)}
           >
-            <img src={artwork.image} alt={artwork.title} loading="lazy" />
+            <img src={artwork.image} alt={resolve(artwork.title)} loading="lazy" />
             <div className={styles.cardMeta}>
               <span className={styles.cardYear}>{artwork.year}</span>
-              <h2 className={styles.cardTitle}>{artwork.title}</h2>
-              <span className={styles.cardMedium}>{artwork.medium}</span>
+              <h2 className={styles.cardTitle}>{resolve(artwork.title)}</h2>
+              <span className={styles.cardMedium}>{resolve(artwork.medium)}</span>
             </div>
           </button>
         ))}
@@ -49,26 +51,31 @@ const SelectedWorks = () => {
             </button>
             <div className={styles.modalBody}>
               <div className={styles.modalImage}>
-                <img src={activeArtwork.image} alt={activeArtwork.title} />
+                <img src={activeArtwork.image} alt={resolve(activeArtwork.title)} />
               </div>
               <div className={styles.modalDetails}>
-                <h3>{activeArtwork.title}</h3>
+                <h3>{resolve(activeArtwork.title)}</h3>
                 <ul>
                   <li>
                     <strong>{t.works.modal.year}:</strong> {activeArtwork.year}
                   </li>
                   <li>
-                    <strong>{t.works.modal.medium}:</strong> {activeArtwork.medium}
+                    <strong>{t.works.modal.medium}:</strong> {resolve(activeArtwork.medium)}
                   </li>
                   <li>
                     <strong>{t.works.modal.dimensions}:</strong> {activeArtwork.dimensions}
                   </li>
                   {activeArtwork.exhibition ? (
                     <li>
-                      <strong>{t.works.modal.exhibition}:</strong> {activeArtwork.exhibition}
+                      <strong>{t.works.modal.exhibition}:</strong> {resolve(activeArtwork.exhibition)}
                     </li>
                   ) : null}
                 </ul>
+                <div className={styles.modalDescription}>
+                  {activeArtwork.description.map((paragraph, index) => (
+                    <p key={`${activeArtwork.id}-paragraph-${index}`}>{resolve(paragraph)}</p>
+                  ))}
+                </div>
               </div>
             </div>
           </div>
