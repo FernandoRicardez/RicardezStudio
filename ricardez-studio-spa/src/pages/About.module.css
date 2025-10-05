@@ -1,0 +1,106 @@
+﻿.page {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  animation: fadeIn 0.6s ease both;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+    transform: translateY(12px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.header h1 {
+  font-size: clamp(2rem, 4vw, 2.8rem);
+  font-weight: 600;
+}
+
+.bioSection {
+  display: grid;
+  grid-template-columns: minmax(260px, 320px) 1fr;
+  gap: 3rem;
+  align-items: start;
+}
+
+.portraitWrapper {
+  border-radius: 24px;
+  overflow: hidden;
+  aspect-ratio: 3 / 4;
+  box-shadow: 0 24px 45px -34px rgba(0, 0, 0, 0.45);
+}
+
+.portraitWrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.bioText {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  font-size: 1.05rem;
+  line-height: 1.8;
+  color: var(--color-text-secondary);
+}
+
+.cvSection h2 {
+  font-size: clamp(1.8rem, 3vw, 2.2rem);
+  margin-bottom: 2rem;
+  font-weight: 600;
+}
+
+.cvGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 2rem;
+}
+
+.cvColumn {
+  background: var(--color-surface);
+  border-radius: 20px;
+  padding: 1.75rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  box-shadow: 0 20px 40px -34px rgba(0, 0, 0, 0.4);
+}
+
+.cvColumn h3 {
+  font-size: 1rem;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+}
+
+.cvColumn ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 0.75rem;
+  color: var(--color-text-secondary);
+  font-size: 0.95rem;
+}
+
+@media (max-width: 900px) {
+  .bioSection {
+    grid-template-columns: 1fr;
+  }
+
+  .portraitWrapper {
+    max-width: 360px;
+  }
+}
+
+@media (max-width: 600px) {
+  .cvColumn {
+    padding: 1.5rem;
+  }
+}
