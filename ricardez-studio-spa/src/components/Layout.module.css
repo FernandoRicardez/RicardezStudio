@@ -1,0 +1,18 @@
+﻿.appContainer {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  background-color: var(--color-background);
+  color: var(--color-text-primary);
+}
+
+.mainContent {
+  flex: 1;
+  padding: calc(var(--header-height) + 2rem) var(--page-gutter) 4rem;
+}
+
+@media (max-width: 768px) {
+  .mainContent {
+    padding: calc(var(--header-height) + 1.5rem) var(--page-gutter-mobile) 3rem;
+  }
+}
