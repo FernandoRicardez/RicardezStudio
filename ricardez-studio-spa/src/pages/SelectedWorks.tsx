@@ -46,8 +46,9 @@ const SelectedWorks = () => {
               type="button"
               className={styles.modalClose}
               onClick={() => setActiveArtwork(null)}
+              aria-label={t.works.modal.close}
             >
-              {t.works.modal.close}
+              &times;
             </button>
             <div className={styles.modalBody}>
               <div className={styles.modalImage}>
@@ -91,3 +92,9 @@ const SelectedWorks = () => {
 };
 
 export default SelectedWorks;
+
+
+
+
+
+

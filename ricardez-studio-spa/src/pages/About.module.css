@@ -1,4 +1,4 @@
-﻿.page {
+.page {
   display: flex;
   flex-direction: column;
   gap: 3rem;
@@ -45,13 +45,15 @@
   display: flex;
   flex-direction: column;
   gap: 1.5rem;
-  font-size: 1.05rem;
-  line-height: 1.8;
+  font-size: 1.8rem;
+  line-height: 2;
+  font-weight: 500;
   color: var(--color-text-secondary);
 }
 
+
 .cvSection h2 {
-  font-size: clamp(1.8rem, 3vw, 2.2rem);
+  font-size: clamp(2rem, 3.5vw, 2.6rem);
   margin-bottom: 2rem;
   font-weight: 600;
 }
@@ -73,8 +75,8 @@
 }
 
 .cvColumn h3 {
-  font-size: 1rem;
-  letter-spacing: 0.06em;
+  font-size: 1.2rem;
+  letter-spacing: 0.08em;
   text-transform: uppercase;
 }
 
@@ -86,7 +88,7 @@
   flex-direction: column;
   gap: 0.75rem;
   color: var(--color-text-secondary);
-  font-size: 0.95rem;
+  font-size: 1.15rem;
 }
 
 @media (max-width: 900px) {
@@ -104,3 +106,6 @@
     padding: 1.5rem;
   }
 }
+
+
+
