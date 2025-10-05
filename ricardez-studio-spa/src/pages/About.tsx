@@ -1,5 +1,6 @@
-﻿import { useLanguage } from '../context/LanguageContext';
+import { useLanguage } from '../context/LanguageContext';
 import styles from './About.module.css';
+import profileImage from '../assets/profile.jpg';
 
 const About = () => {
   const { t } = useLanguage();
@@ -13,7 +14,7 @@ const About = () => {
       <section className={styles.bioSection}>
         <div className={styles.portraitWrapper}>
           <img
-            src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?auto=format&fit=crop&w=720&q=80"
+            src={profileImage}
             alt={t.about.portraitAlt}
           />
         </div>
