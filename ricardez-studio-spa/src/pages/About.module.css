@@ -102,6 +102,11 @@
 }
 
 @media (max-width: 600px) {
+  .bioText {
+    font-size: 1.2rem;
+    line-height: 1.9;
+  }
+
   .cvColumn {
     padding: 1.5rem;
   }

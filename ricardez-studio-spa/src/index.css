@@ -10,7 +10,7 @@
   --content-max-width: 1120px;
   --page-gutter: 3rem;
   --page-gutter-mobile: 1.5rem;
-  --header-height: 96px;
+  --header-height: 88px;
 }
 
 * {
@@ -27,6 +27,7 @@ body {
   font-size: 28px;
   line-height: 1.7;
   font-weight: 500;
+  padding-top: var(--header-height);
 }
 
 a {
@@ -45,4 +46,13 @@ code {
 
 
 
+
+
+@media (max-width: 1024px) {
+  :root { --header-height: 104px; }
+}
+
+@media (max-width: 768px) {
+  :root { --header-height: 140px; }
+}
 
