@@ -205,3 +205,20 @@
     padding: 1.5rem;
   }
 }
+
+@media (max-width: 600px) {
+  .hero {
+    min-height: 100vh;
+  }
+
+  .heroImage {
+    height: 100%;
+    max-height: none;
+  }
+
+  .heroOverlay {
+    align-items: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+  }
+}
