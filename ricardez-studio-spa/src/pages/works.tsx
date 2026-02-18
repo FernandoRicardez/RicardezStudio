@@ -1,9 +1,10 @@
-﻿import { useMemo, useState } from 'react';
+﻿import Head from 'next/head';
+import { useMemo, useState } from 'react';
 import { artworks, type Artwork, type LocalizedText } from '../data/artworks';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './SelectedWorks.module.css';
 
-const SelectedWorks = () => {
+const SelectedWorksPage = () => {
   const { t, language } = useLanguage();
   const [activeArtwork, setActiveArtwork] = useState<Artwork | null>(null);
 
@@ -16,6 +17,10 @@ const SelectedWorks = () => {
 
   return (
     <div className={styles.page}>
+      <Head>
+        <title>{t.meta.worksTitle}</title>
+        <meta name="description" content={t.meta.worksDescription} />
+      </Head>
       <header className={styles.header}>
         <h1>{t.works.pageTitle}</h1>
         <p>{t.works.intro}</p>
@@ -91,10 +96,8 @@ const SelectedWorks = () => {
   );
 };
 
-export default SelectedWorks;
+export const getStaticProps = async () => ({
+  props: {},
+});
 
-
-
-
-
-
+export default SelectedWorksPage;

@@ -1,4 +1,4 @@
-export type LanguageKey = 'en' | 'es';
+﻿export type LanguageKey = 'en' | 'es';
 
 type CVSection = {
   title: string;
@@ -64,6 +64,16 @@ type Translation = {
   footer: {
     rights: string;
   };
+  meta: {
+    homeTitle: string;
+    homeDescription: string;
+    worksTitle: string;
+    worksDescription: string;
+    aboutTitle: string;
+    aboutDescription: string;
+    contactTitle: string;
+    contactDescription: string;
+  };
   languageToggle: {
     label: string;
     short: string;
@@ -109,7 +119,7 @@ export const translations: Record<LanguageKey, Translation> = {
     about: {
       pageTitle: 'Bio',
       bio: [
-        'Fernando Manuel Ric\u00e1rdez Lara (Le\u00f3n, Guanajuato, 1995) is a computer systems engineer from Universidad La Salle Baj\u00edo. He combines technological training with an artistic practice focused on disability, illness, and memory. His work transforms personal experiences, such as the diagnosis and surgery of a macro pituitary adenoma, into pictorial narratives that move between the surreal and the autobiographical. In 2025 he received the PECDA Guanajuato grant, was selected for the P\u00e9rez Romo Biennial and the XV Joaqu\u00edn Clausell National Painting Biennial, and earned an Honorable Mention at the XI University Biennial of Contemporary Art. His exhibitions include solo and group shows in Mexico and abroad, highlighted by his first solo presentation at the Congress of the State of Guanajuato.',
+        'Fernando Manuel Ricárdez Lara (León, Guanajuato, 1995) is a computer systems engineer from Universidad La Salle Bajío. He combines technological training with an artistic practice focused on disability, illness, and memory. His work transforms personal experiences, such as the diagnosis and surgery of a macro pituitary adenoma, into pictorial narratives that move between the surreal and the autobiographical. In 2025 he received the PECDA Guanajuato grant, was selected for the Pérez Romo Biennial and the XV Joaquín Clausell National Painting Biennial, and earned an Honorable Mention at the XI University Biennial of Contemporary Art. His exhibitions include solo and group shows in Mexico and abroad, highlighted by his first solo presentation at the Congress of the State of Guanajuato.',
       ],
       cvTitle: 'Curriculum Vitae',
       cvSections: [
@@ -173,6 +183,16 @@ export const translations: Record<LanguageKey, Translation> = {
     footer: {
       rights: '© 2025 Fer Ricárdez. All rights reserved.',
     },
+    meta: {
+      homeTitle: 'Fer Ricárdez | Visual Artist',
+      homeDescription: 'Visual artist exploring disability, memory, and the autobiographical through painting.',
+      worksTitle: 'Selected Works | Fer Ricárdez',
+      worksDescription: 'Curated selection of recent paintings, murals, and works on paper.',
+      aboutTitle: 'Bio | Fer Ricárdez',
+      aboutDescription: 'Biography, exhibitions, and awards for visual artist Fer Ricárdez.',
+      contactTitle: 'Contact | Fer Ricárdez',
+      contactDescription: 'Collaborations, commissions, and press inquiries for Fer Ricárdez.',
+    },
     languageToggle: {
       label: 'Cambiar idioma',
       short: 'ES',
@@ -216,7 +236,7 @@ export const translations: Record<LanguageKey, Translation> = {
     about: {
       pageTitle: 'Bio',
       bio: [
-        'Fernando Manuel Ric\u00e1rdez Lara (Le\u00f3n, Guanajuato, 1995). Ingeniero en Sistemas Computacionales por la Universidad La Salle Baj\u00edo, combina su formaci\u00f3n tecnol\u00f3gica con una pr\u00e1ctica art\u00edstica marcada por la exploraci\u00f3n de la discapacidad, la enfermedad y la memoria. Su obra transforma experiencias personales, como el diagn\u00f3stico y la cirug\u00eda de un macroadenoma hipofisario, en narrativas pict\u00f3ricas que dialogan entre lo surreal y lo autobiogr\u00e1fico. En 2025 obtuvo el PECDA Guanajuato, fue seleccionado en la Bienal P\u00e9rez Romo, en la XV Bienal Nacional de Pintura Joaqu\u00edn Clausell y recibi\u00f3 Menci\u00f3n Honor\u00edfica en la XI Bienal Universitaria de Arte Contempor\u00e1neo. Ha participado en exposiciones individuales y colectivas en M\u00e9xico y en el extranjero, destacando su primera muestra individual en el Congreso del Estado de Guanajuato.',
+        'Fernando Manuel Ricárdez Lara (León, Guanajuato, 1995). Ingeniero en Sistemas Computacionales por la Universidad La Salle Bajío, combina su formación tecnológica con una práctica artística marcada por la exploración de la discapacidad, la enfermedad y la memoria. Su obra transforma experiencias personales, como el diagnóstico y la cirugía de un macroadenoma hipofisario, en narrativas pictóricas que dialogan entre lo surreal y lo autobiográfico. En 2025 obtuvo el PECDA Guanajuato, fue seleccionado en la Bienal Pérez Romo, en la XV Bienal Nacional de Pintura Joaquín Clausell y recibió Mención Honorífica en la XI Bienal Universitaria de Arte Contemporáneo. Ha participado en exposiciones individuales y colectivas en México y en el extranjero, destacando su primera muestra individual en el Congreso del Estado de Guanajuato.',
       ],
       cvTitle: 'Currículum',
       cvSections: [
@@ -279,6 +299,16 @@ export const translations: Record<LanguageKey, Translation> = {
     },
     footer: {
       rights: '© 2025 Fer Ricárdez. Todos los derechos reservados.',
+    },
+    meta: {
+      homeTitle: 'Fer Ricárdez | Artista Visual',
+      homeDescription: 'Artista visual que explora discapacidad, memoria y autobiografía a través de la pintura.',
+      worksTitle: 'Obra Seleccionada | Fer Ricárdez',
+      worksDescription: 'Selección curada de pinturas, murales y obra sobre papel recientes.',
+      aboutTitle: 'Bio | Fer Ricárdez',
+      aboutDescription: 'Biografía, exposiciones y reconocimientos de Fer Ricárdez.',
+      contactTitle: 'Contacto | Fer Ricárdez',
+      contactDescription: 'Colaboraciones, comisiones y prensa para Fer Ricárdez.',
     },
     languageToggle: {
       label: 'Switch language',
