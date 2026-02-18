@@ -22,8 +22,6 @@ npm-debug.log*
 yarn-debug.log*
 yarn-error.log*
 
-.next/
-out/
 
 ricardez-studio-spa/.next/
 ricardez-studio-spa/out/
