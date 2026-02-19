@@ -1,22 +1,23 @@
+﻿import Head from 'next/head';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './About.module.css';
-import profileImage from '../assets/profile.jpg';
 
-const About = () => {
+const AboutPage = () => {
   const { t } = useLanguage();
 
   return (
     <div className={styles.page}>
+      <Head>
+        <title>{t.meta.aboutTitle}</title>
+        <meta name="description" content={t.meta.aboutDescription} />
+      </Head>
       <header className={styles.header}>
         <h1>{t.about.pageTitle}</h1>
       </header>
 
       <section className={styles.bioSection}>
         <div className={styles.portraitWrapper}>
-          <img
-            src={profileImage}
-            alt={t.about.portraitAlt}
-          />
+          <img src="/assets/profile.jpg" alt={t.about.portraitAlt} />
         </div>
         <div className={styles.bioText}>
           {t.about.bio.map((paragraph, index) => (
@@ -44,4 +45,8 @@ const About = () => {
   );
 };
 
-export default About;
+export const getStaticProps = async () => ({
+  props: {},
+});
+
+export default AboutPage;

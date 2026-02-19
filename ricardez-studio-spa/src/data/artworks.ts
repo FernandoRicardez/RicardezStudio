@@ -1,14 +1,4 @@
-import img14y47FragmentosDeLuz from '../assets/paintings/14y47fragmentosdeLuz.jpg';
-import imgBrotesDeAgradecimiento from '../assets/paintings/BrotesDeAgradecimiento.jpg';
-import imgBuscandoCuerposPositrones from '../assets/paintings/BuscandoCuerposPositrones.jpg';
-import imgCostoCuerpoInternado from '../assets/paintings/CsostoCuerpoIntternado.jpg';
-import imgFamiliaRampaYLazos from '../assets/paintings/FamiliaRampayLazos_15x100x4_FernandoRicardez.jpg';
-import imgMalignoBenigno from '../assets/paintings/MalignoBenigno.jpg';
-import imgMiCabezaDaLimones from '../assets/paintings/MiCabezaDaLimones.jpg';
-import imgQuizaMarteSeaMasAccesible from '../assets/paintings/Quiza-marte-sea-mas-accesible_Fernando-Manuel-Ricardez-Lara.jpg';
-import imgSustentoElectroOrganico from '../assets/paintings/SustentoElectroOrganico.jpg';
-
-export type LocalizedText = {
+﻿export type LocalizedText = {
   en: string;
   es: string;
 };
@@ -37,7 +27,7 @@ export const artworks: Artwork[] = [
       es: 'Acrilico con polvo de marmol sobre lienzo',
     },
     dimensions: '40 x 40 cm',
-    image: imgMiCabezaDaLimones,
+    image: '/assets/paintings/MiCabezaDaLimones.jpg',
     exhibition: {
       en: 'Honorable mention, Emerging Artist, XI University Art Biennial (UABC)',
       es: 'Mencion honorifica como artista emergente en la XI Bienal de Arte Universitario (UABC)',
@@ -65,7 +55,7 @@ export const artworks: Artwork[] = [
       es: 'Acrilico con plastilita sobre lienzo',
     },
     dimensions: '50 x 50 cm',
-    image: imgBrotesDeAgradecimiento,
+    image: '/assets/paintings/BrotesDeAgradecimiento.jpg',
     description: [
       {
         en: 'Gratitude blossoms as small flowers that mark a new beginning. This work was created for the neurosurgeon who removed a macro pituitary adenoma from my brain in August 2024.',
@@ -89,7 +79,7 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo (diptico)',
     },
     dimensions: '25 x 51 cm',
-    image: imgMalignoBenigno,
+    image: '/assets/paintings/MalignoBenigno.jpg',
     exhibition: {
       en: 'Honorable mention, Emerging Artist, XI University Art Biennial (UABC)',
       es: 'Mencion honorifica como artista emergente en la XI Bienal de Arte Universitario (UABC)',
@@ -117,7 +107,7 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo',
     },
     dimensions: '90 x 40 cm',
-    image: imgSustentoElectroOrganico,
+    image: '/assets/paintings/SustentoElectroOrganico.jpg',
     exhibition: {
       en: 'Selected for the Dr. Perez Romo Biennial 2025 (UAA)',
       es: 'Obra seleccionada en la Bienal Dr Perez Romo 2025 (UAA)',
@@ -145,7 +135,7 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo',
     },
     dimensions: '100 x 75 cm',
-    image: imgCostoCuerpoInternado,
+    image: '/assets/paintings/CsostoCuerpoIntternado.jpg',
     exhibition: {
       en: 'Selected for the XV Joaquin Clausell Painting Biennial (UACAM)',
       es: 'Seleccionada en la XV Bienal de Pintura Joaquin Clausell (UACAM)',
@@ -173,7 +163,7 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo',
     },
     dimensions: '91 x 157 cm',
-    image: img14y47FragmentosDeLuz,
+    image: '/assets/paintings/14y47fragmentosdeLuz.jpg',
     description: [
       {
         en: 'The composition mirrors the visual acuity percentages I had in each eye when the tumor affected my sight. The world appeared divided yet flooded with light and color.',
@@ -197,7 +187,7 @@ export const artworks: Artwork[] = [
       es: 'Tecnica mixta (oleo y acrilico) sobre lienzo',
     },
     dimensions: '80 x 45 cm',
-    image: imgBuscandoCuerposPositrones,
+    image: '/assets/paintings/BuscandoCuerposPositrones.jpg',
     description: [
       {
         en: 'After surgery the initial pathology suggested metastasis, triggering a cascade of tests: colonoscopy, blood work, a PET scan. The radioactive liquid rendered my body on a disc, transparent and asymmetrical.',
@@ -221,7 +211,7 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo',
     },
     dimensions: '35 x 45 cm',
-    image: imgQuizaMarteSeaMasAccesible,
+    image: '/assets/paintings/Quiza-marte-sea-mas-accesible_Fernando-Manuel-Ricardez-Lara.jpg',
     exhibition: {
       en: 'First prize, Latin American "Sin Barreras" competition, Argentina',
       es: 'Primer lugar en el concurso latinoamericano "Sin barreras", Argentina',
@@ -249,7 +239,7 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo con hilo de canamo',
     },
     dimensions: '100 x 150 cm',
-    image: imgFamiliaRampaYLazos,
+    image: '/assets/paintings/FamiliaRampayLazos_15x100x4_FernandoRicardez.jpg',
     description: [
       {
         en: 'A family self-portrait anchored by a wooden ramp, capturing daily negotiations with accessibility. Every character and object: parents, children, tree, ramp; embodies a facet of collective resilience.',
