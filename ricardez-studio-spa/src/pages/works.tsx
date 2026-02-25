@@ -1,5 +1,5 @@
-﻿import Head from 'next/head';
 import { useMemo, useState } from 'react';
+import Seo from '../components/Seo';
 import { artworks, type Artwork, type LocalizedText } from '../data/artworks';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './SelectedWorks.module.css';
@@ -15,12 +15,21 @@ const SelectedWorksPage = () => {
 
   const resolve = (text: LocalizedText) => text[language];
 
+  const collectionJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: t.works.pageTitle,
+    description: t.works.intro,
+    url: 'https://ricardezfer.com/works',
+  };
+
   return (
     <div className={styles.page}>
-      <Head>
-        <title>{t.meta.worksTitle}</title>
-        <meta name="description" content={t.meta.worksDescription} />
-      </Head>
+      <Seo
+        title={t.meta.worksTitle}
+        description={t.meta.worksDescription}
+        jsonLd={collectionJsonLd}
+      />
       <header className={styles.header}>
         <h1>{t.works.pageTitle}</h1>
         <p>{t.works.intro}</p>

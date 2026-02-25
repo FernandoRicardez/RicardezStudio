@@ -1,5 +1,5 @@
-﻿import Head from 'next/head';
 import { FormEvent } from 'react';
+import Seo from '../components/Seo';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './Contact.module.css';
 
@@ -12,10 +12,7 @@ const ContactPage = () => {
 
   return (
     <div className={styles.page}>
-      <Head>
-        <title>{t.meta.contactTitle}</title>
-        <meta name="description" content={t.meta.contactDescription} />
-      </Head>
+      <Seo title={t.meta.contactTitle} description={t.meta.contactDescription} />
       <header className={styles.header}>
         <h1>{t.contact.pageTitle}</h1>
         <p>{t.contact.intro}</p>

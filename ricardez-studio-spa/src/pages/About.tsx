@@ -1,4 +1,4 @@
-﻿import Head from 'next/head';
+import Seo from '../components/Seo';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './About.module.css';
 
@@ -7,10 +7,7 @@ const AboutPage = () => {
 
   return (
     <div className={styles.page}>
-      <Head>
-        <title>{t.meta.aboutTitle}</title>
-        <meta name="description" content={t.meta.aboutDescription} />
-      </Head>
+      <Seo title={t.meta.aboutTitle} description={t.meta.aboutDescription} />
       <header className={styles.header}>
         <h1>{t.about.pageTitle}</h1>
       </header>

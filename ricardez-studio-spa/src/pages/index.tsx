@@ -1,17 +1,33 @@
-﻿import Head from 'next/head';
 import Link from 'next/link';
+import Seo from '../components/Seo';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './Home.module.css';
 
 const HomePage = () => {
   const { t } = useLanguage();
 
+  const personJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'Person',
+    name: 'Fer Ricardez',
+    jobTitle: 'Visual Artist',
+    url: 'https://ricardezfer.com',
+    sameAs: ['https://www.instagram.com/fer_ricardez'],
+    address: {
+      '@type': 'PostalAddress',
+      addressLocality: 'Leon',
+      addressRegion: 'Guanajuato',
+      addressCountry: 'MX',
+    },
+  };
+
   return (
     <div className={styles.page}>
-      <Head>
-        <title>{t.meta.homeTitle}</title>
-        <meta name="description" content={t.meta.homeDescription} />
-      </Head>
+      <Seo
+        title={t.meta.homeTitle}
+        description={t.meta.homeDescription}
+        jsonLd={personJsonLd}
+      />
       <section className={styles.hero}>
         <img
           className={styles.heroImage}

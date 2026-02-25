@@ -136,6 +136,7 @@ export const translations: Record<LanguageKey, Translation> = {
           title: 'Solo Exhibitions',
           items: [
             "2025 - 'Fragmentos de un recuerdo espinal', Santa Fe Cultural Center, Congress of the State of Guanajuato, May-June",
+            "2026 - 'Vestigios clínicos: Beyond the Diagnosis', Museo de la Ciudad Francisco Orozco Muñoz, San Francisco del Rincón, Guanajuato, February 25-April 30, 2026",
           ],
         },
         {
@@ -253,6 +254,7 @@ export const translations: Record<LanguageKey, Translation> = {
           title: 'Exposiciones Individuales',
           items: [
             '2025 - "Fragmentos de un recuerdo espinal", Centro Cultural Santa Fe, Congreso del Estado de Guanajuato, mayo-junio 2025',
+            '2026 - "Vestigios clínicos: Más allá del diagnóstico", Museo de la Ciudad Francisco Orozco Muñoz, San Francisco del Rincón, Guanajuato, del 25 de febrero al 30 de abril de 2026',
           ],
         },
         {
