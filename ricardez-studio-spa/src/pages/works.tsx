@@ -1,9 +1,10 @@
-﻿import { useMemo, useState } from 'react';
+import { useMemo, useState } from 'react';
+import Seo from '../components/Seo';
 import { artworks, type Artwork, type LocalizedText } from '../data/artworks';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './SelectedWorks.module.css';
 
-const SelectedWorks = () => {
+const SelectedWorksPage = () => {
   const { t, language } = useLanguage();
   const [activeArtwork, setActiveArtwork] = useState<Artwork | null>(null);
 
@@ -14,8 +15,21 @@ const SelectedWorks = () => {
 
   const resolve = (text: LocalizedText) => text[language];
 
+  const collectionJsonLd = {
+    '@context': 'https://schema.org',
+    '@type': 'CollectionPage',
+    name: t.works.pageTitle,
+    description: t.works.intro,
+    url: 'https://ricardezfer.com/works',
+  };
+
   return (
     <div className={styles.page}>
+      <Seo
+        title={t.meta.worksTitle}
+        description={t.meta.worksDescription}
+        jsonLd={collectionJsonLd}
+      />
       <header className={styles.header}>
         <h1>{t.works.pageTitle}</h1>
         <p>{t.works.intro}</p>
@@ -91,10 +105,8 @@ const SelectedWorks = () => {
   );
 };
 
-export default SelectedWorks;
+export const getStaticProps = async () => ({
+  props: {},
+});
 
-
-
-
-
-
+export default SelectedWorksPage;

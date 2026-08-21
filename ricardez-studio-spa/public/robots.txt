@@ -2,3 +2,6 @@ User-agent: *
 Allow: /
 
 Sitemap: https://ricardezfer.com/sitemap.xml
+# LLM discovery
+# See: https://llmstxt.org/
+LLM: https://ricardezfer.com/llms.txt

@@ -1,20 +1,18 @@
-﻿import { FormEvent } from 'react';
+import { FormEvent } from 'react';
+import Seo from '../components/Seo';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './Contact.module.css';
 
-const Contact = () => {
+const ContactPage = () => {
   const { t } = useLanguage();
 
   const handleSubmit = (event: FormEvent<HTMLFormElement>) => {
     event.preventDefault();
   };
 
-  const handleNewsletter = (event: FormEvent<HTMLFormElement>) => {
-    event.preventDefault();
-  };
-
   return (
     <div className={styles.page}>
+      <Seo title={t.meta.contactTitle} description={t.meta.contactDescription} />
       <header className={styles.header}>
         <h1>{t.contact.pageTitle}</h1>
         <p>{t.contact.intro}</p>
@@ -64,4 +62,8 @@ const Contact = () => {
   );
 };
 
-export default Contact;
+export const getStaticProps = async () => ({
+  props: {},
+});
+
+export default ContactPage;

@@ -1,4 +1,4 @@
-{
+﻿{
   "compilerOptions": {
     "target": "es5",
     "lib": [
@@ -8,19 +8,28 @@
     ],
     "allowJs": true,
     "skipLibCheck": true,
-    "esModuleInterop": true,
-    "allowSyntheticDefaultImports": true,
     "strict": true,
     "forceConsistentCasingInFileNames": true,
-    "noFallthroughCasesInSwitch": true,
+    "noEmit": true,
+    "esModuleInterop": true,
     "module": "esnext",
     "moduleResolution": "node",
     "resolveJsonModule": true,
     "isolatedModules": true,
-    "noEmit": true,
-    "jsx": "react-jsx"
+    "jsx": "preserve",
+    "incremental": true
   },
   "include": [
-    "src"
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx"
+  ],
+  "exclude": [
+    "node_modules",
+    "src/App.tsx",
+    "src/index.tsx",
+    "src/App.test.tsx",
+    "src/reportWebVitals.ts",
+    "src/setupTests.ts"
   ]
 }

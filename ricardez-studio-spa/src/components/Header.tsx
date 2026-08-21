@@ -1,30 +1,26 @@
-﻿import { NavLink } from 'react-router-dom';
+﻿import Link from 'next/link';
+import { useRouter } from 'next/router';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './Header.module.css';
 
 const Header = () => {
   const { toggleLanguage, t, language } = useLanguage();
+  const router = useRouter();
 
-  const linkClass = ({ isActive }: { isActive: boolean }) =>
-    isActive ? `${styles.navLink} ${styles.active}` : styles.navLink;
+  const linkClass = (href: string) =>
+    router.pathname === href ? `${styles.navLink} ${styles.active}` : styles.navLink;
 
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <NavLink to="/" className={styles.brand}>
+        <Link href="/" className={styles.brand}>
           <span className={styles.brandName}>Fer Ricárdez</span>
           <span className={styles.brandRole}>{t.hero.subtitle}</span>
-        </NavLink>
+        </Link>
         <nav className={styles.nav} aria-label="Main navigation">
-          <NavLink to="/" end className={linkClass}>
-            {t.nav.home}
-          </NavLink>
-          <NavLink to="/works" className={linkClass}>
-            {t.nav.works}
-          </NavLink>
-          <NavLink to="/about" className={linkClass}>
-            {t.nav.about}
-          </NavLink>
+          <Link href="/" className={linkClass('/')}>{t.nav.home}</Link>
+          <Link href="/works" className={linkClass('/works')}>{t.nav.works}</Link>
+          <Link href="/about" className={linkClass('/about')}>{t.nav.about}</Link>
           <a
             className={styles.navLink}
             href="https://www.instagram.com/fer_ricardez"
