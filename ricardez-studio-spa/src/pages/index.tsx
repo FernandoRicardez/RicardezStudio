@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import Seo from '../components/Seo';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './Home.module.css';
@@ -40,9 +39,9 @@ const HomePage = () => {
             <h1 className={styles.title}>{t.hero.title}</h1>
             <p className={styles.description}>{t.hero.description}</p>
             <div className={styles.ctaGroup}>
-              <Link className={styles.ctaButton} href="/works">
+              <a className={styles.ctaButton} href="/works">
                 {t.hero.cta}
-              </Link>
+              </a>
             </div>
           </div>
         </div>

@@ -1,4 +1,3 @@
-﻿import Link from 'next/link';
 import { useRouter } from 'next/router';
 import { useLanguage } from '../context/LanguageContext';
 import styles from './Header.module.css';
@@ -13,14 +12,14 @@ const Header = () => {
   return (
     <header className={styles.header}>
       <div className={styles.inner}>
-        <Link href="/" className={styles.brand}>
+        <a href="/" className={styles.brand}>
           <span className={styles.brandName}>Fer Ricárdez</span>
           <span className={styles.brandRole}>{t.hero.subtitle}</span>
-        </Link>
+        </a>
         <nav className={styles.nav} aria-label="Main navigation">
-          <Link href="/" className={linkClass('/')}>{t.nav.home}</Link>
-          <Link href="/works" className={linkClass('/works')}>{t.nav.works}</Link>
-          <Link href="/about" className={linkClass('/about')}>{t.nav.about}</Link>
+          <a href="/" className={linkClass('/')}>{t.nav.home}</a>
+          <a href="/works" className={linkClass('/works')}>{t.nav.works}</a>
+          <a href="/about" className={linkClass('/about')}>{t.nav.about}</a>
           <a
             className={styles.navLink}
             href="https://www.instagram.com/fer_ricardez"
