@@ -127,35 +127,39 @@ export const translations: Record<LanguageKey, Translation> = {
           title: 'Recognitions & Awards',
           items: [
             '2025 - Program for the Stimulus to Creation and Artistic Development (PECDA), Government of Mexico / Guanajuato',
-            '2025 - Honorable Mention (Emerging Artist), XI National University Biennial of Contemporary Art, UABC Tijuana',
-            '2025 - Co-responsibility Grant for Artistic, Cultural & Creative Talent Incubation, IMJU Leon',
+            '2025 - Honorable Mention, XI National University Biennial of Contemporary Art, UABC, Tijuana',
+            '2025 - Co-responsibility Grant for Artistic, Cultural & Creative Talent Incubation, IMJU León',
             '2024 - First Place, "Sin Barreras" International Art Competition, Argentina',
           ],
         },
         {
           title: 'Solo Exhibitions',
           items: [
-            "2025 - 'Fragmentos de un recuerdo espinal', Santa Fe Cultural Center, Congress of the State of Guanajuato, May-June",
-            "2026 - 'Vestigios clínicos: Beyond the Diagnosis', Museo de la Ciudad Francisco Orozco Muñoz, San Francisco del Rincón, Guanajuato, February 25-April 30, 2026",
-          ],
-        },
-        {
-          title: 'Education & Training',
-          items: [
-            '2024-present - Extension Culture Open Workshops, Universidad de Guanajuato',
-            '2024-present - Private painting lessons with Jose Juan Castro Escobedo',
-            '2024-present - Private painting lessons with Oliver Esquivel Morales',
-            '2015-2019 - Software and Computer Systems Engineering, Universidad La Salle Bajio',
+            "2026 - 'Beyond Diagnosis', Envision Art Gallery, Wichita, Kansas, USA, July-August",
+            "2026 - 'Clinical Vestiges', Museo de la Ciudad de San Francisco del Rincón, Guanajuato, Mexico, March-April",
+            "2025 - 'Fragments of a Spinal Memory', Centro Cultural Santa Fe, Congress of the State of Guanajuato, Guanajuato, Mexico, May-June",
           ],
         },
         {
           title: 'Selected Group Exhibitions',
           items: [
-            '2025 - Dr. Perez Romo Painting Biennial, UAA, Aguascalientes',
-            '2024 - SinBarreras.org exhibition, Asociacion Civil por la Igualdad y la Justicia / Asociacion Azul / Red Latinoamericana por la Vida Independiente, Argentina',
-            '2025 - XV Joaquin Clausell Biennial, UACAM, Campeche',
+            '2026 - Dr. Pérez Romo Painting Biennial, Autonomous University of Aguascalientes (UAA), Aguascalientes, Mexico',
+            '2026 - Tránsitos: A Land That Overflows, Mi Museo Universitario, Universidad La Salle Bajío, León, Guanajuato, Mexico',
+            '2026 - TRÁMITE — TOMO 0010, Garage Guanajuato, Querétaro, Mexico',
+            '2025 - XI National University Biennial of Contemporary Art, Sala de Arte Álvaro Blancarte, Tijuana, Mexico',
+            '2025 - XV Joaquín Clausell National Painting Biennial, UACAM, Campeche, Mexico',
+            '2025 - Dr. Pérez Romo Painting Biennial, Autonomous University of Aguascalientes (UAA), Aguascalientes, Mexico',
             '2025 - 62nd Art of Possibilities Art Show & Sale, Courage Kenny Rehabilitation Institute, Minnesota, USA',
-            '2025 - XI National University Biennial of Contemporary Art, Sala de Arte Alvaro Blancarte, Tijuana',
+            '2024 - Sin Barreras International Art Contest, Argentina',
+          ],
+        },
+        {
+          title: 'Education & Training',
+          items: [
+            '2024-present - Private painting instruction with Oliver Esquivel Morales',
+            '2024-present - Private painting instruction with José Juan Castro Escobedo',
+            '2024-2026 - Art workshops, Universidad de Guanajuato',
+            '2015-2019 - Software Engineering and Computer Systems, Universidad La Salle Bajío',
           ],
         },
 
@@ -244,36 +248,40 @@ export const translations: Record<LanguageKey, Translation> = {
         {
           title: 'Reconocimientos y Premios',
           items: [
-            '2025 - Programa de Estimulo a la Creacion y Desarrollo Artistico (PECDA), Gobierno de Mexico / Guanajuato',
-            '2025 - Mencion Honorifica como artista emergente, XI Bienal Nacional Universitaria de Arte Contemporaneo, UABC Tijuana',
-            '2025 - Beca de Corresponsabilidad para la Incubacion de Talento Artistico, Cultural y Creativo, IMJU Leon',
+            '2025 - Programa de Estímulo a la Creación y Desarrollo Artístico (PECDA), Gobierno de México / Guanajuato',
+            '2025 - Mención Honorífica, XI Bienal Nacional Universitaria de Arte Contemporáneo, UABC, Tijuana',
+            '2025 - Beca de Corresponsabilidad para la Incubación de Talento Artístico, Cultural y Creativo, IMJU León',
             '2024 - Primer Lugar, Concurso Internacional de Arte "Sin Barreras", Argentina',
           ],
         },
         {
           title: 'Exposiciones Individuales',
           items: [
-            '2025 - "Fragmentos de un recuerdo espinal", Centro Cultural Santa Fe, Congreso del Estado de Guanajuato, mayo-junio 2025',
-            '2026 - "Vestigios clínicos: Más allá del diagnóstico", Museo de la Ciudad Francisco Orozco Muñoz, San Francisco del Rincón, Guanajuato, del 25 de febrero al 30 de abril de 2026',
+            '2026 - "Beyond Diagnosis", Envision Art Gallery, Wichita, Kansas, EE. UU., julio-agosto',
+            '2026 - "Vestigios clínicos", Museo de la Ciudad de San Francisco del Rincón, Guanajuato, México, marzo-abril',
+            '2025 - "Fragmentos de un recuerdo espinal", Centro Cultural Santa Fe, Congreso del Estado de Guanajuato, Guanajuato, México, mayo-junio',
+          ],
+        },
+        {
+          title: 'Exposiciones Colectivas (Selección)',
+          items: [
+            '2026 - Bienal de Pintura "Dr. Pérez Romo", Universidad Autónoma de Aguascalientes (UAA), Aguascalientes, México',
+            '2026 - Tránsitos: una tierra que desborda, Mi Museo Universitario, Universidad La Salle Bajío, León, Guanajuato, México',
+            '2026 - TRÁMITE — TOMO 0010, Garage Guanajuato, Querétaro, México',
+            '2025 - XI Bienal Nacional Universitaria de Arte Contemporáneo, Sala de Arte Álvaro Blancarte, Tijuana, México',
+            '2025 - XV Bienal Nacional de Pintura Joaquín Clausell, UACAM, Campeche, México',
+            '2025 - Bienal de Pintura "Dr. Pérez Romo", Universidad Autónoma de Aguascalientes (UAA), Aguascalientes, México',
+            '2025 - 62nd Art of Possibilities Art Show & Sale, Courage Kenny Rehabilitation Institute, Minnesota, EE. UU.',
+            '2024 - Concurso Internacional de Arte "Sin Barreras", Argentina',
           ],
         },
         {
           title: 'Estudios',
           items: [
-            '2024 a la fecha - Talleres Libres de Extension Cultural, Universidad de Guanajuato',
-            '2024 a la fecha - Clases privadas de pintura con Jose Juan Castro Escobedo',
             '2024 a la fecha - Clases privadas de pintura con Oliver Esquivel Morales',
-            '2015-2019 - Ingenieria en Software y Sistemas Computacionales, Universidad La Salle Bajio',
-          ],
-        },
-        {
-          title: 'Exposiciones Colectivas (Seleccion)',
-          items: [
-            '2025 - Bienal de Pintura "Dr Perez Romo", UAA, Aguascalientes',
-            '2024 - Concursosinbarreras.org, Asociacion Civil por la Igualdad y la Justicia / Asociacion Azul / Red Latinoamericana por la Vida Independiente, Argentina',
-            '2025 - XV Bienal Joaquin Clausell, UACAM, Campeche',
-            '2025 - 62nd Art of Possibilities Art Show & Sale, Courage Kenny Rehabilitation Institute, Minnesota, USA',
-            '2025 - XI Bienal Nacional Universitaria de Arte Contemporaneo, Sala de Arte Alvaro Blancarte, Tijuana',
+            '2024 a la fecha - Clases privadas de pintura con José Juan Castro Escobedo',
+            '2024-2026 - Talleres de arte, Universidad de Guanajuato',
+            '2015-2019 - Ingeniería en Software y Sistemas Computacionales, Universidad La Salle Bajío',
           ],
         },
 
