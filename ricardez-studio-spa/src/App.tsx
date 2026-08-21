@@ -2,8 +2,8 @@
 import Layout from './components/Layout';
 import Home from './pages/Home';
 import SelectedWorks from './pages/SelectedWorks';
-import About from './pages/About';
-import Contact from './pages/Contact';
+import About from './pages/about';
+import Contact from './pages/contact';
 import { LanguageProvider } from './context/LanguageContext';
 
 const App = () => {
