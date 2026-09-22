@@ -7,6 +7,7 @@ type SeoProps = {
   image?: string;
   type?: 'website' | 'article';
   jsonLd?: Record<string, unknown>;
+  robots?: string;
 };
 
 const BASE_URL = 'https://ricardezfer.com';
@@ -17,6 +18,7 @@ const Seo = ({
   image = '/preview.jpg',
   type = 'website',
   jsonLd,
+  robots = 'index,follow,max-image-preview:large',
 }: SeoProps) => {
   const router = useRouter();
   const canonicalUrl = `${BASE_URL}${router.asPath === '/' ? '' : router.asPath}`;
@@ -26,7 +28,7 @@ const Seo = ({
     <Head>
       <title>{title}</title>
       <meta name="description" content={description} />
-      <meta name="robots" content="index,follow,max-image-preview:large" />
+      <meta name="robots" content={robots} />
       <link rel="canonical" href={canonicalUrl} />
 
       <meta property="og:title" content={title} />

@@ -1,0 +1,22 @@
+[
+  {
+    "certificateId": "FR-CERT-2024-001",
+    "artworkId": "FER-2024-001",
+    "verificationToken": "7f2bc4d9a18e6c30b5f1478ea21d9c6436b02fe4d781a39c85ee917cab42d653",
+    "issuedAt": "2026-09-22",
+    "status": "valid"
+  },
+  {
+    "certificateId": "FR-CERT-2024-002",
+    "artworkId": "FER-2024-002",
+    "verificationToken": "b9e51d682f77a03c4d185f9e63ca24b77610efd8234aa5c98bf621d349807e1c",
+    "status": "revoked"
+  },
+  {
+    "certificateId": "FR-CERT-2024-003",
+    "artworkId": "FER-2024-003",
+    "verificationToken": "e401a9c7335bd6f082fa9481ce76a3d520b8f69c1d47ee95260ab317f4cd886a",
+    "status": "replaced",
+    "replacedBy": "FR-CERT-2024-003-R1"
+  }
+]
