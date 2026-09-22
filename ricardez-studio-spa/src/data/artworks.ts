@@ -5,18 +5,30 @@
 
 export type Artwork = {
   id: string;
+  slug: string;
   title: LocalizedText;
   year: number;
   medium: LocalizedText;
-  dimensions: string;
-  image: string;
-  description: LocalizedText[];
-  exhibition?: LocalizedText;
+  dimensions?: string;
+  series?: LocalizedText;
+  edition?: string;
+  status: 'available' | 'private-collection' | 'artist-collection' | 'not-available';
+  description?: LocalizedText[];
+  images: {
+    src: string;
+    alt: LocalizedText;
+    caption?: LocalizedText;
+    kind?: 'artwork' | 'detail' | 'installation' | 'documentation';
+  }[];
+  exhibitions?: { title: LocalizedText; venue?: string; city?: string; year?: number }[];
+  recognitions?: { title: LocalizedText; year?: number }[];
+  publications?: { title: LocalizedText; url?: string }[];
 };
 
 export const artworks: Artwork[] = [
   {
-    id: '2024-mi-cabeza-da-limones',
+    id: 'FER-2024-001',
+    slug: 'mi-cabeza-da-limones',
     title: {
       en: 'My Head Grows Lemons',
       es: 'Mi cabeza da Limones',
@@ -27,11 +39,9 @@ export const artworks: Artwork[] = [
       es: 'Acrilico con polvo de marmol sobre lienzo',
     },
     dimensions: '40 x 40 cm',
-    image: '/assets/paintings/MiCabezaDaLimones.jpg',
-    exhibition: {
-      en: 'Honorable mention, Emerging Artist, XI University Art Biennial (UABC)',
-      es: 'Mencion honorifica como artista emergente en la XI Bienal de Arte Universitario (UABC)',
-    },
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/MiCabezaDaLimones.jpg', alt: { en: 'My Head Grows Lemons', es: 'Mi cabeza da Limones' } }],
+    recognitions: [{ title: { en: 'Honorable mention, Emerging Artist, XI University Art Biennial (UABC)', es: 'Mencion honorifica como artista emergente en la XI Bienal de Arte Universitario (UABC)' } }],
     description: [
       {
         en: 'This piece began with the diagnosis of a pituitary tumor that a neurosurgeon described as the size of a "taco-stand lemon" (4 cm x 3 cm x 2 cm). The metaphor became the anchor for a series that embraces the surreal image of growing citrus inside the skull.',
@@ -44,7 +54,8 @@ export const artworks: Artwork[] = [
     ],
   },
   {
-    id: '2024-brotes-de-agradecimiento',
+    id: 'FER-2024-002',
+    slug: 'brotes-de-agradecimiento',
     title: {
       en: 'Sprouts of Gratitude',
       es: 'Brotes de agradecimiento',
@@ -55,7 +66,8 @@ export const artworks: Artwork[] = [
       es: 'Acrilico con plastilita sobre lienzo',
     },
     dimensions: '50 x 50 cm',
-    image: '/assets/paintings/BrotesDeAgradecimiento.jpg',
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/BrotesDeAgradecimiento.jpg', alt: { en: 'Sprouts of Gratitude', es: 'Brotes de agradecimiento' } }],
     description: [
       {
         en: 'Gratitude blossoms as small flowers that mark a new beginning. This work was created for the neurosurgeon who removed a macro pituitary adenoma from my brain in August 2024.',
@@ -68,7 +80,8 @@ export const artworks: Artwork[] = [
     ],
   },
   {
-    id: '2024-maligno-benigno',
+    id: 'FER-2024-003',
+    slug: 'maligno-benigno',
     title: {
       en: 'Malignant / Benign',
       es: 'Maligno / Benigno',
@@ -79,11 +92,9 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo (diptico)',
     },
     dimensions: '25 x 51 cm',
-    image: '/assets/paintings/MalignoBenigno.jpg',
-    exhibition: {
-      en: 'Honorable mention, Emerging Artist, XI University Art Biennial (UABC)',
-      es: 'Mencion honorifica como artista emergente en la XI Bienal de Arte Universitario (UABC)',
-    },
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/MalignoBenigno.jpg', alt: { en: 'Malignant / Benign', es: 'Maligno / Benigno' } }],
+    recognitions: [{ title: { en: 'Honorable mention, Emerging Artist, XI University Art Biennial (UABC)', es: 'Mencion honorifica como artista emergente en la XI Bienal de Arte Universitario (UABC)' } }],
     description: [
       {
         en: 'This diptych emerged from the pathology reports of my tumor. Initial results pointed to a metastatic pituitary adenocarcinoma, an extremely rare diagnosis that opened a second round of studies and reviews.',
@@ -96,7 +107,8 @@ export const artworks: Artwork[] = [
     ],
   },
   {
-    id: '2025-sustento-electrorganico',
+    id: 'FER-2025-001',
+    slug: 'sustento-electrorganico',
     title: {
       en: 'Electrorganic Sustenance',
       es: 'Sustento electrorganico',
@@ -107,11 +119,9 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo',
     },
     dimensions: '90 x 40 cm',
-    image: '/assets/paintings/SustentoElectroOrganico.jpg',
-    exhibition: {
-      en: 'Selected for the Dr. Perez Romo Biennial 2025 (UAA)',
-      es: 'Obra seleccionada en la Bienal Dr Perez Romo 2025 (UAA)',
-    },
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/SustentoElectroOrganico.jpg', alt: { en: 'Electrorganic Sustenance', es: 'Sustento electrorganico' } }],
+    exhibitions: [{ title: { en: 'Dr. Perez Romo Biennial', es: 'Bienal Dr Perez Romo' }, venue: 'UAA', year: 2025 }],
     description: [
       {
         en: 'One day before my tumor ruptured I watched a cloudy sky intersected by a power pole, hovering like a dream. The next day, from a hospital bed, a serum pole mirrored that vision. Both fused into a single memory.',
@@ -124,7 +134,8 @@ export const artworks: Artwork[] = [
     ],
   },
   {
-    id: '2025-costo-cuerpo-internado',
+    id: 'FER-2025-002',
+    slug: 'costo-cuerpo-internado',
     title: {
       en: 'Cost of a Hospitalized Body',
       es: 'Costo de un cuerpo internado',
@@ -135,11 +146,9 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo',
     },
     dimensions: '100 x 75 cm',
-    image: '/assets/paintings/CsostoCuerpoIntternado.jpg',
-    exhibition: {
-      en: 'Selected for the XV Joaquin Clausell Painting Biennial (UACAM)',
-      es: 'Seleccionada en la XV Bienal de Pintura Joaquin Clausell (UACAM)',
-    },
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/CsostoCuerpoIntternado.jpg', alt: { en: 'Cost of a Hospitalized Body', es: 'Costo de un cuerpo internado' } }],
+    exhibitions: [{ title: { en: 'XV Joaquin Clausell Painting Biennial', es: 'XV Bienal de Pintura Joaquin Clausell' }, venue: 'UACAM' }],
     description: [
       {
         en: 'Each ten-millimeter grid square, separated by two millimeters, represents the roughly 4,941 USD spent during my first hospitalization for a macro pituitary adenoma.',
@@ -152,7 +161,8 @@ export const artworks: Artwork[] = [
     ],
   },
   {
-    id: '2024-14-y-47',
+    id: 'FER-2024-004',
+    slug: '14-y-47-fragmentos-de-luz',
     title: {
       en: '14 & 47, Light Fragments',
       es: '14 y 47, Fragmentos de luz',
@@ -163,7 +173,8 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo',
     },
     dimensions: '91 x 157 cm',
-    image: '/assets/paintings/14y47fragmentosdeLuz.jpg',
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/14y47fragmentosdeLuz.jpg', alt: { en: '14 & 47, Light Fragments', es: '14 y 47, Fragmentos de luz' } }],
     description: [
       {
         en: 'The composition mirrors the visual acuity percentages I had in each eye when the tumor affected my sight. The world appeared divided yet flooded with light and color.',
@@ -176,7 +187,8 @@ export const artworks: Artwork[] = [
     ],
   },
   {
-    id: '2025-positrones',
+    id: 'FER-2025-003',
+    slug: 'buscando-cuerpos-extranos-con-positrones',
     title: {
       en: 'Searching for Foreign Bodies with Positrons',
       es: 'Buscando cuerpos extranos con positrones',
@@ -187,7 +199,8 @@ export const artworks: Artwork[] = [
       es: 'Tecnica mixta (oleo y acrilico) sobre lienzo',
     },
     dimensions: '80 x 45 cm',
-    image: '/assets/paintings/BuscandoCuerposPositrones.jpg',
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/BuscandoCuerposPositrones.jpg', alt: { en: 'Searching for Foreign Bodies with Positrons', es: 'Buscando cuerpos extranos con positrones' } }],
     description: [
       {
         en: 'After surgery the initial pathology suggested metastasis, triggering a cascade of tests: colonoscopy, blood work, a PET scan. The radioactive liquid rendered my body on a disc, transparent and asymmetrical.',
@@ -200,7 +213,8 @@ export const artworks: Artwork[] = [
     ],
   },
   {
-    id: '2023-quizas-marte',
+    id: 'FER-2023-001',
+    slug: 'quizas-marte-sea-mas-accesible',
     title: {
       en: 'Perhaps Mars Will Be More Accessible',
       es: 'Quizas Marte sea mas accesible',
@@ -211,11 +225,9 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo',
     },
     dimensions: '35 x 45 cm',
-    image: '/assets/paintings/Quiza-marte-sea-mas-accesible_Fernando-Manuel-Ricardez-Lara.jpg',
-    exhibition: {
-      en: 'First prize, Latin American "Sin Barreras" competition, Argentina',
-      es: 'Primer lugar en el concurso latinoamericano "Sin barreras", Argentina',
-    },
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/Quiza-marte-sea-mas-accesible_Fernando-Manuel-Ricardez-Lara.jpg', alt: { en: 'Perhaps Mars Will Be More Accessible', es: 'Quizas Marte sea mas accesible' } }],
+    recognitions: [{ title: { en: 'First prize, Latin American "Sin Barreras" competition, Argentina', es: 'Primer lugar en el concurso latinoamericano "Sin barreras", Argentina' } }],
     description: [
       {
         en: 'Vivid colors and simplified forms speak to the complexity of securing dignified housing, a challenge magnified for disabled people. An astronaut in a wheelchair faces a house inspired by Barragan and Legorreta palettes.',
@@ -228,7 +240,8 @@ export const artworks: Artwork[] = [
     ],
   },
   {
-    id: '2024-familia-rampa-lazos',
+    id: 'FER-2024-005',
+    slug: 'familia-rampa-y-lazos',
     title: {
       en: 'Family, Ramp, and Ties',
       es: 'Familia, rampa, y lazos',
@@ -239,7 +252,8 @@ export const artworks: Artwork[] = [
       es: 'Acrilico sobre lienzo con hilo de canamo',
     },
     dimensions: '100 x 150 cm',
-    image: '/assets/paintings/FamiliaRampayLazos_15x100x4_FernandoRicardez.jpg',
+    status: 'not-available',
+    images: [{ src: '/assets/paintings/FamiliaRampayLazos_15x100x4_FernandoRicardez.jpg', alt: { en: 'Family, Ramp, and Ties', es: 'Familia, rampa, y lazos' } }],
     description: [
       {
         en: 'A family self-portrait anchored by a wooden ramp, capturing daily negotiations with accessibility. Every character and object: parents, children, tree, ramp; embodies a facet of collective resilience.',

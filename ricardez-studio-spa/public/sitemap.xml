@@ -13,6 +13,21 @@
     <priority>0.9</priority>
   </url>
   <url>
+    <loc>https://ricardezfer.com/catalogo</loc>
+    <lastmod>2026-09-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.9</priority>
+  </url>
+  <url><loc>https://ricardezfer.com/catalogo/mi-cabeza-da-limones</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ricardezfer.com/catalogo/brotes-de-agradecimiento</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ricardezfer.com/catalogo/maligno-benigno</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ricardezfer.com/catalogo/sustento-electrorganico</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ricardezfer.com/catalogo/costo-cuerpo-internado</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ricardezfer.com/catalogo/14-y-47-fragmentos-de-luz</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ricardezfer.com/catalogo/buscando-cuerpos-extranos-con-positrones</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ricardezfer.com/catalogo/quizas-marte-sea-mas-accesible</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url><loc>https://ricardezfer.com/catalogo/familia-rampa-y-lazos</loc><lastmod>2026-09-22</lastmod><priority>0.8</priority></url>
+  <url>
     <loc>https://ricardezfer.com/about</loc>
     <lastmod>2026-02-19</lastmod>
     <changefreq>monthly</changefreq>

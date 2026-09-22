@@ -43,7 +43,7 @@ const SelectedWorksPage = () => {
             className={styles.card}
             onClick={() => setActiveArtwork(artwork)}
           >
-            <img src={artwork.image} alt={resolve(artwork.title)} loading="lazy" />
+            <img src={artwork.images[0].src} alt={resolve(artwork.images[0].alt)} loading="lazy" />
             <div className={styles.cardMeta}>
               <span className={styles.cardYear}>{artwork.year}</span>
               <h2 className={styles.cardTitle}>{resolve(artwork.title)}</h2>
@@ -66,7 +66,7 @@ const SelectedWorksPage = () => {
             </button>
             <div className={styles.modalBody}>
               <div className={styles.modalImage}>
-                <img src={activeArtwork.image} alt={resolve(activeArtwork.title)} />
+                <img src={activeArtwork.images[0].src} alt={resolve(activeArtwork.images[0].alt)} />
               </div>
               <div className={styles.modalDetails}>
                 <h3>{resolve(activeArtwork.title)}</h3>
@@ -80,14 +80,14 @@ const SelectedWorksPage = () => {
                   <li>
                     <strong>{t.works.modal.dimensions}:</strong> {activeArtwork.dimensions}
                   </li>
-                  {activeArtwork.exhibition ? (
+                  {activeArtwork.exhibitions?.[0] ? (
                     <li>
-                      <strong>{t.works.modal.exhibition}:</strong> {resolve(activeArtwork.exhibition)}
+                      <strong>{t.works.modal.exhibition}:</strong> {resolve(activeArtwork.exhibitions[0].title)}
                     </li>
                   ) : null}
                 </ul>
                 <div className={styles.modalDescription}>
-                  {activeArtwork.description.map((paragraph, index) => (
+                  {activeArtwork.description?.map((paragraph, index) => (
                     <p key={`${activeArtwork.id}-paragraph-${index}`}>{resolve(paragraph)}</p>
                   ))}
                 </div>

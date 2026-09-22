@@ -7,7 +7,7 @@ const Header = () => {
   const router = useRouter();
 
   const linkClass = (href: string) =>
-    router.pathname === href ? `${styles.navLink} ${styles.active}` : styles.navLink;
+    router.pathname === href || (href !== '/' && router.pathname.startsWith(`${href}/`)) ? `${styles.navLink} ${styles.active}` : styles.navLink;
 
   return (
     <header className={styles.header}>
@@ -19,6 +19,7 @@ const Header = () => {
         <nav className={styles.nav} aria-label="Main navigation">
           <a href="/" className={linkClass('/')}>{t.nav.home}</a>
           <a href="/works" className={linkClass('/works')}>{t.nav.works}</a>
+          <a href="/catalogo" className={linkClass('/catalogo')}>{language === 'es' ? 'Catálogo' : 'Catalog'}</a>
           <a href="/about" className={linkClass('/about')}>{t.nav.about}</a>
           <a
             className={styles.navLink}
