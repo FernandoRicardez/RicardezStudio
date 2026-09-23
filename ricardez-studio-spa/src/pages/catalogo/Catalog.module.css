@@ -8,15 +8,14 @@
 .filters input, .filters select { width: 100%; min-height: 42px; padding: .55rem .65rem; border: 1px solid rgba(16,4,31,.25); border-radius: 0; background: transparent; color: inherit; font: inherit; font-size: .8rem; }
 .filters input:focus, .filters select:focus { outline: 2px solid var(--color-accent); outline-offset: 2px; }
 .count { margin: 0; font-size: .75rem; color: var(--color-text-secondary); }
-.grid { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 2.5rem 1.25rem; }
+.grid { display: grid; grid-template-columns: repeat(3, minmax(0, 1fr)); gap: 3rem 1.5rem; }
 .card a { display: block; text-decoration: none; }
-.imageFrame { aspect-ratio: 1; max-height: 260px; padding: .65rem; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.22); overflow: hidden; }
-.imageFrame img { width: 100%; height: 100%; object-fit: contain; transition: transform .25s ease; }
+.imageFrame { aspect-ratio: 4 / 5; display: flex; align-items: center; justify-content: center; background: rgba(255,255,255,.22); overflow: hidden; }
+.imageFrame img { width: 100%; height: 100%; object-fit: cover; transition: transform .25s ease; }
 .card a:hover img, .card a:focus-visible img { transform: scale(1.015); }
 .meta { padding-top: .85rem; }
 .meta h2 { margin: 0 0 .35rem; font-size: 1rem; line-height: 1.35; font-weight: 600; }
 .meta p { margin: .15rem 0; color: var(--color-text-secondary); font-size: .72rem; line-height: 1.5; }
 .empty { min-height: 20vh; font-size: .9rem; }
-@media (max-width: 1000px) { .grid { grid-template-columns: repeat(3, minmax(0, 1fr)); } }
-@media (max-width: 760px) { .filters { grid-template-columns: repeat(2, 1fr); } .search { grid-column: 1 / -1; } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+@media (max-width: 900px) { .filters { grid-template-columns: repeat(2, 1fr); } .search { grid-column: 1 / -1; } .grid { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
 @media (max-width: 560px) { .filters, .grid { grid-template-columns: 1fr; } .search { grid-column: auto; } .grid { row-gap: 2rem; } }
