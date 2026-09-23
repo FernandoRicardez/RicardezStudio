@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-024",
+  "slug": "venas-mano",
+  "visibility": "draft",
+  "title": {
+    "es": "Venas mano",
+    "en": null
+  },
+  "startedAt": "2026-03-02",
+  "completedAt": "2026-07-17",
+  "year": 2026,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 50,
+    "widthCm": 50
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 96
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-006",
+  "slug": "ojo-toxico",
+  "visibility": "draft",
+  "title": {
+    "es": "Ojo toxico",
+    "en": "Toxic"
+  },
+  "startedAt": "2022-12-14",
+  "completedAt": "2025-01-21",
+  "year": 2025,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 30,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 43
+  }
+}

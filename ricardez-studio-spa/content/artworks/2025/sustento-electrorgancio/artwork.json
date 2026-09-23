@@ -1,0 +1,41 @@
+{
+  "id": "FER-2025-001",
+  "slug": "sustento-electrorgancio",
+  "visibility": "draft",
+  "title": {
+    "es": "Sustento Electrorgancio",
+    "en": null
+  },
+  "startedAt": "2025-02-07",
+  "completedAt": "2025-08-10",
+  "year": 2025,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 90,
+    "widthCm": 40
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 62
+  }
+}

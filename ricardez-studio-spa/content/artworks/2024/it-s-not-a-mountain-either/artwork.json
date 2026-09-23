@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-006",
+  "slug": "it-s-not-a-mountain-either",
+  "visibility": "draft",
+  "title": {
+    "es": "It's not a mountain either",
+    "en": "It's not a mountain either"
+  },
+  "startedAt": "2022-10-12",
+  "completedAt": "2024-02-19",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 80
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 18
+  }
+}

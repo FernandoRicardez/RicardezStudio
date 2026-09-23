@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-021",
+  "slug": "retrato-alma",
+  "visibility": "draft",
+  "title": {
+    "es": "retrato Alma",
+    "en": null
+  },
+  "startedAt": "2026-04-02",
+  "completedAt": "2026-06-13",
+  "year": 2026,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 45,
+    "widthCm": 80
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 93
+  }
+}

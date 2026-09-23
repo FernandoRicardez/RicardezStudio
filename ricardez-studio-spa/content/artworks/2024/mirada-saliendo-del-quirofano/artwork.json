@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-021",
+  "slug": "mirada-saliendo-del-quirofano",
+  "visibility": "draft",
+  "title": {
+    "es": "Mirada saliendo del quirófano.",
+    "en": "Post-Op Gaze"
+  },
+  "startedAt": "2024-10-21",
+  "completedAt": "2024-11-15",
+  "year": 2024,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 60,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 36
+  }
+}

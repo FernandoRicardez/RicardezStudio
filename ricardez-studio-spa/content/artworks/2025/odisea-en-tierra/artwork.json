@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-033",
+  "slug": "odisea-en-tierra",
+  "visibility": "draft",
+  "title": {
+    "es": "Odisea en tierra",
+    "en": "Ground Odyssey"
+  },
+  "startedAt": "2025-10-28",
+  "completedAt": "2025-11-29",
+  "year": 2025,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 50,
+    "widthCm": 50
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 72
+  }
+}

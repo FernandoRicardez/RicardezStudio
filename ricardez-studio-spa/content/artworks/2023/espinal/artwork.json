@@ -1,0 +1,40 @@
+{
+  "id": "FER-2023-008",
+  "slug": "espinal",
+  "visibility": "draft",
+  "title": {
+    "es": "Espinal",
+    "en": "Spine"
+  },
+  "startedAt": "2023-06-01",
+  "completedAt": "2023-06-03",
+  "year": 2023,
+  "medium": {
+    "es": "acrilico con polvo de marmol sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 16
+  }
+}

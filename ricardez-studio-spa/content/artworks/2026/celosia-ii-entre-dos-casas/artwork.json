@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-026",
+  "slug": "celosia-ii-entre-dos-casas",
+  "visibility": "draft",
+  "title": {
+    "es": "Celosía II: Entre dos casas",
+    "en": null
+  },
+  "startedAt": "2026-09-16",
+  "completedAt": "2026-09-19",
+  "year": 2026,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 30,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 98
+  }
+}

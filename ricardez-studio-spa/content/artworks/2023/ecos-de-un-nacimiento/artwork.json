@@ -1,0 +1,41 @@
+{
+  "id": "FER-2023-003",
+  "slug": "ecos-de-un-nacimiento",
+  "visibility": "draft",
+  "title": {
+    "es": "Ecos de un nacimiento",
+    "en": null
+  },
+  "startedAt": "2023-04-21",
+  "completedAt": "2023-04-30",
+  "year": 2023,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 60,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 11
+  }
+}

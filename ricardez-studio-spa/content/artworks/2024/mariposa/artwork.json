@@ -1,0 +1,41 @@
+{
+  "id": "FER-2024-013",
+  "slug": "mariposa",
+  "visibility": "draft",
+  "title": {
+    "es": "Mariposa.",
+    "en": null
+  },
+  "startedAt": "2024-09-12",
+  "completedAt": "2024-09-13",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 20,
+    "widthCm": 25
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 25
+  }
+}

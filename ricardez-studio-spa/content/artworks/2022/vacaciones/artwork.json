@@ -1,0 +1,40 @@
+{
+  "id": "FER-2022-002",
+  "slug": "vacaciones",
+  "visibility": "draft",
+  "title": {
+    "es": "Vacaciones",
+    "en": "Vacations"
+  },
+  "startedAt": "2022-09-24",
+  "completedAt": "2022-10-05",
+  "year": 2022,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 20,
+    "widthCm": 15
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 3
+  }
+}

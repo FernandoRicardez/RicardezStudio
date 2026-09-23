@@ -1,0 +1,41 @@
+{
+  "id": "FER-2024-025",
+  "slug": "julieta",
+  "visibility": "draft",
+  "title": {
+    "es": "Julieta",
+    "en": null
+  },
+  "startedAt": "2024-09-28",
+  "completedAt": "2024-12-24",
+  "year": 2024,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 50,
+    "widthCm": 40
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 40
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-018",
+  "slug": "esto-es-cancer",
+  "visibility": "draft",
+  "title": {
+    "es": "¿Esto es cáncer?",
+    "en": "Is this cancer?"
+  },
+  "startedAt": "2024-09-20",
+  "completedAt": "2024-10-03",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 30,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 31
+  }
+}

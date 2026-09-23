@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-002",
+  "slug": "cotizacion",
+  "visibility": "draft",
+  "title": {
+    "es": "Cotizacion",
+    "en": null
+  },
+  "startedAt": "2025-08-13",
+  "completedAt": "2026-01-14",
+  "year": 2026,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 180,
+    "widthCm": 180
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 74
+  }
+}

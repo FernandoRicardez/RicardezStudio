@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-003",
+  "slug": "mascara-lucha",
+  "visibility": "draft",
+  "title": {
+    "es": "Mascara Lucha",
+    "en": null
+  },
+  "startedAt": "2026-01-13",
+  "completedAt": "2026-01-16",
+  "year": 2026,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 35,
+    "widthCm": 28
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 75
+  }
+}

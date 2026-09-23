@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-016",
+  "slug": "traslado-hospitalario",
+  "visibility": "draft",
+  "title": {
+    "es": "Traslado hospitalario",
+    "en": "Trip to the hospital"
+  },
+  "startedAt": "2024-11-11",
+  "completedAt": "2025-04-26",
+  "year": 2025,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 70,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 53
+  }
+}

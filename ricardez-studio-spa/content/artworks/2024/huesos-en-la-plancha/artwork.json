@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-022",
+  "slug": "huesos-en-la-plancha",
+  "visibility": "draft",
+  "title": {
+    "es": "Huesos en la plancha",
+    "en": "Bones on the Table"
+  },
+  "startedAt": "2024-11-22",
+  "completedAt": "2024-11-25",
+  "year": 2024,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 70,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 37
+  }
+}

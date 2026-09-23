@@ -1,0 +1,40 @@
+{
+  "id": "FER-2022-006",
+  "slug": "ocaso-oxidado",
+  "visibility": "draft",
+  "title": {
+    "es": "Ocaso Oxidado",
+    "en": "Rusted Dusk"
+  },
+  "startedAt": "2022-09-24",
+  "completedAt": "2022-12-22",
+  "year": 2022,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 35,
+    "widthCm": 45
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 7
+  }
+}

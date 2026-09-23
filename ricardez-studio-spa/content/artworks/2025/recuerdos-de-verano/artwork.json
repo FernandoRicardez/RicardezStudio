@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-030",
+  "slug": "recuerdos-de-verano",
+  "visibility": "draft",
+  "title": {
+    "es": "Recuerdos de verano",
+    "en": "Summer memories"
+  },
+  "startedAt": "2025-08-23",
+  "completedAt": "2025-11-20",
+  "year": 2025,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 30,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 69
+  }
+}

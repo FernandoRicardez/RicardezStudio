@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-004",
+  "slug": "pequenas-promesas",
+  "visibility": "draft",
+  "title": {
+    "es": "Pequeñas promesas",
+    "en": "Little Promises"
+  },
+  "startedAt": "2024-03-15",
+  "completedAt": "2025-01-09",
+  "year": 2025,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 10,
+    "widthCm": 10
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 41
+  }
+}

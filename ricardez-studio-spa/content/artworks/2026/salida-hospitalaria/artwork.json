@@ -1,0 +1,40 @@
+{
+  "id": "FER-2026-015",
+  "slug": "salida-hospitalaria",
+  "visibility": "draft",
+  "title": {
+    "es": "Salida Hospitalaria",
+    "en": "Hospital Exit"
+  },
+  "startedAt": "2026-05-02",
+  "completedAt": "2026-05-26",
+  "year": 2026,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 45,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 87
+  }
+}

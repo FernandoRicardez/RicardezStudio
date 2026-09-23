@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-012",
+  "slug": "tomografia-craneal",
+  "visibility": "draft",
+  "title": {
+    "es": "Tomografia craneal",
+    "en": "Cranial Tomography"
+  },
+  "startedAt": "2025-02-19",
+  "completedAt": "2025-04-10",
+  "year": 2025,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 50,
+    "widthCm": 50
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 49
+  }
+}

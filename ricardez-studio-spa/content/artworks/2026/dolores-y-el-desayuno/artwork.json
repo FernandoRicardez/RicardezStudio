@@ -1,0 +1,40 @@
+{
+  "id": "FER-2026-005",
+  "slug": "dolores-y-el-desayuno",
+  "visibility": "draft",
+  "title": {
+    "es": "Dolores y el desayuno",
+    "en": "Dolores and Breakfast"
+  },
+  "startedAt": "2024-10-19",
+  "completedAt": "2026-02-01",
+  "year": 2026,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 30,
+    "widthCm": 40
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 77
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-013",
+  "slug": "cadera-en-eco",
+  "visibility": "draft",
+  "title": {
+    "es": "Cadera en eco",
+    "en": null
+  },
+  "startedAt": "2026-03-28",
+  "completedAt": "2026-03-28",
+  "year": 2026,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 50
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 85
+  }
+}

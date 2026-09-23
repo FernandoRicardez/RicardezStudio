@@ -1,0 +1,41 @@
+{
+  "id": "FER-2024-002",
+  "slug": "brotes-de-agradecimiento",
+  "visibility": "draft",
+  "title": {
+    "es": "Brotes de agradecimiento",
+    "en": null
+  },
+  "startedAt": "2024-08-17",
+  "completedAt": "2024-11-07",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 50,
+    "widthCm": 50
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 34
+  }
+}

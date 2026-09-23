@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-023",
+  "slug": "mi-papa-cargando-la-rampa",
+  "visibility": "draft",
+  "title": {
+    "es": "Mi papá cargando la rampa.",
+    "en": null
+  },
+  "startedAt": "2024-01-07",
+  "completedAt": "2026-07-17",
+  "year": 2026,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 80,
+    "widthCm": 120
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 95
+  }
+}

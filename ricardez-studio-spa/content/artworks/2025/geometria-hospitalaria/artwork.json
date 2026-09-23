@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-005",
+  "slug": "geometria-hospitalaria",
+  "visibility": "draft",
+  "title": {
+    "es": "Geometria hospitalaria",
+    "en": "Hospital Geometry"
+  },
+  "startedAt": "2024-11-16",
+  "completedAt": "2025-01-15",
+  "year": 2025,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 40
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 42
+  }
+}

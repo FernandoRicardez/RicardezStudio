@@ -1,0 +1,41 @@
+{
+  "id": "FER-2024-020",
+  "slug": "transformacion-de-la-consencia",
+  "visibility": "draft",
+  "title": {
+    "es": "Transformación de la consencia.",
+    "en": null
+  },
+  "startedAt": "2024-10-10",
+  "completedAt": "2024-10-17",
+  "year": 2024,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 50,
+    "widthCm": 50
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 33
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-024",
+  "slug": "madrugada-universitaria",
+  "visibility": "draft",
+  "title": {
+    "es": "Madrugada universitaria",
+    "en": "University Dawn"
+  },
+  "startedAt": "2025-07-22",
+  "completedAt": "2025-09-21",
+  "year": 2025,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 63
+  }
+}

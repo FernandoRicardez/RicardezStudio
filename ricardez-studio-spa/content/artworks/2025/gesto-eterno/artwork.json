@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-025",
+  "slug": "gesto-eterno",
+  "visibility": "draft",
+  "title": {
+    "es": "Gesto eterno",
+    "en": "Eternal Gesture"
+  },
+  "startedAt": "2025-03-25",
+  "completedAt": "2025-09-28",
+  "year": 2025,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 64
+  }
+}

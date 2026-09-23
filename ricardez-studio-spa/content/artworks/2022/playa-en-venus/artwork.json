@@ -1,0 +1,40 @@
+{
+  "id": "FER-2022-003",
+  "slug": "playa-en-venus",
+  "visibility": "draft",
+  "title": {
+    "es": "Playa en venus",
+    "en": "Beach in Venus"
+  },
+  "startedAt": "2022-09-18",
+  "completedAt": "2022-11-04",
+  "year": 2022,
+  "medium": {
+    "es": "Gouache y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 25,
+    "widthCm": 20
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 4
+  }
+}

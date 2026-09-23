@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-011",
+  "slug": "tomando-el-sol",
+  "visibility": "draft",
+  "title": {
+    "es": "Tomando el sol",
+    "en": "Basking in the Sun"
+  },
+  "startedAt": "2024-06-12",
+  "completedAt": "2025-04-10",
+  "year": 2025,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 70,
+    "widthCm": 90
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 48
+  }
+}

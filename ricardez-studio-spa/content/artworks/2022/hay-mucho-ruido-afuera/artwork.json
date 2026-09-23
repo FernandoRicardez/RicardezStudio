@@ -1,0 +1,40 @@
+{
+  "id": "FER-2022-007",
+  "slug": "hay-mucho-ruido-afuera",
+  "visibility": "draft",
+  "title": {
+    "es": "Hay mucho ruido afuera",
+    "en": "Morning Commute"
+  },
+  "startedAt": "2022-10-18",
+  "completedAt": "2022-12-26",
+  "year": 2022,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 30,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 8
+  }
+}

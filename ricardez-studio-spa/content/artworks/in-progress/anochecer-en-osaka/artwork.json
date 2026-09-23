@@ -1,0 +1,42 @@
+{
+  "id": null,
+  "slug": "anochecer-en-osaka",
+  "visibility": "draft",
+  "title": {
+    "es": "Anochecer en Osaka",
+    "en": null
+  },
+  "startedAt": "2025-10-26",
+  "completedAt": null,
+  "year": null,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 70,
+    "widthCm": 50
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "completion-date-pending",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 104
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "FER-2025-026",
+  "slug": "insomnio",
+  "visibility": "draft",
+  "title": {
+    "es": "Insomnio",
+    "en": null
+  },
+  "startedAt": "2025-09-11",
+  "completedAt": "2025-10-10",
+  "year": 2025,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 80,
+    "widthCm": 80
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 65
+  }
+}

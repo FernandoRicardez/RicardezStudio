@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-013",
+  "slug": "luz-quirofano",
+  "visibility": "draft",
+  "title": {
+    "es": "Luz quirofano",
+    "en": "Lights, Transsphenoidal Resection... and Rebirth"
+  },
+  "startedAt": "2025-04-17",
+  "completedAt": "2025-04-23",
+  "year": 2025,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 110,
+    "widthCm": 110
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 50
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-009",
+  "slug": "ascenso-y-descenso",
+  "visibility": "draft",
+  "title": {
+    "es": "Ascenso y descenso",
+    "en": null
+  },
+  "startedAt": "2026-02-09",
+  "completedAt": "2026-02-23",
+  "year": 2026,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 35,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 81
+  }
+}

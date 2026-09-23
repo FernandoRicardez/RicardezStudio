@@ -1,0 +1,40 @@
+{
+  "id": "FER-2023-002",
+  "slug": "orbe",
+  "visibility": "draft",
+  "title": {
+    "es": "Orbe",
+    "en": "Orb"
+  },
+  "startedAt": "2022-09-05",
+  "completedAt": "2023-02-06",
+  "year": 2023,
+  "medium": {
+    "es": "Gouache y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 30,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 9
+  }
+}

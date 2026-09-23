@@ -1,0 +1,40 @@
+{
+  "id": "FER-2023-005",
+  "slug": "monstruo",
+  "visibility": "draft",
+  "title": {
+    "es": "Monstruo",
+    "en": "Monster"
+  },
+  "startedAt": "2023-05-07",
+  "completedAt": "2023-05-07",
+  "year": 2023,
+  "medium": {
+    "es": "acrilico sobre terciopelo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 10,
+    "widthCm": 10
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 13
+  }
+}

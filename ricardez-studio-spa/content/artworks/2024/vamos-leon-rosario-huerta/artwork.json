@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-015",
+  "slug": "vamos-leon-rosario-huerta",
+  "visibility": "draft",
+  "title": {
+    "es": "¡Vamos León! Rosario Huerta",
+    "en": "Rosario Huerta"
+  },
+  "startedAt": "2024-09-22",
+  "completedAt": "2024-09-27",
+  "year": 2024,
+  "medium": {
+    "es": "Mixta: óleo sobre collage y lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 60,
+    "widthCm": 45
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 27
+  }
+}

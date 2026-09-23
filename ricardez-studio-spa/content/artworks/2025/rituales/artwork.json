@@ -1,0 +1,41 @@
+{
+  "id": "FER-2025-021",
+  "slug": "rituales",
+  "visibility": "draft",
+  "title": {
+    "es": "rituales",
+    "en": null
+  },
+  "startedAt": "2025-07-20",
+  "completedAt": "2025-07-26",
+  "year": 2025,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 25,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 59
+  }
+}

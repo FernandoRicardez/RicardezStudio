@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-009",
+  "slug": "horizonte-en-llamas",
+  "visibility": "draft",
+  "title": {
+    "es": "Horizonte en llamas",
+    "en": "Flames Horizon"
+  },
+  "startedAt": "2024-07-12",
+  "completedAt": "2024-07-12",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 25,
+    "widthCm": 20
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 21
+  }
+}

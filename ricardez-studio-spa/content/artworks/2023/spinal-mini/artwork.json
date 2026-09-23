@@ -1,0 +1,40 @@
+{
+  "id": "FER-2023-004",
+  "slug": "spinal-mini",
+  "visibility": "draft",
+  "title": {
+    "es": "Spinal Mini",
+    "en": "Spinal Mini"
+  },
+  "startedAt": "2023-05-06",
+  "completedAt": "2023-05-06",
+  "year": 2023,
+  "medium": {
+    "es": "acrilico con polvo de marmol sobre cartón",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 7.6,
+    "widthCm": 5
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 12
+  }
+}

@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-028",
+  "slug": "dolores-y-el-cuatro-de-espadas",
+  "visibility": "draft",
+  "title": {
+    "es": "Dolores y el Cuatro de Espadas",
+    "en": "Dolores and the Four of Swords"
+  },
+  "startedAt": "2025-10-15",
+  "completedAt": "2025-10-24",
+  "year": 2025,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 67
+  }
+}

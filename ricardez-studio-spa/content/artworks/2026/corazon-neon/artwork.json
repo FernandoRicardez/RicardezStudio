@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-012",
+  "slug": "corazon-neon",
+  "visibility": "draft",
+  "title": {
+    "es": "Corazon Neón",
+    "en": null
+  },
+  "startedAt": "2026-02-19",
+  "completedAt": "2026-02-25",
+  "year": 2026,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 35,
+    "widthCm": 30
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 84
+  }
+}

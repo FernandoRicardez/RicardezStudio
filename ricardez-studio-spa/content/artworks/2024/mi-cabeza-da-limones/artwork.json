@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-001",
+  "slug": "mi-cabeza-da-limones",
+  "visibility": "draft",
+  "title": {
+    "es": "Mi cabeza da limones",
+    "en": "My Head Grows Lemons"
+  },
+  "startedAt": "2024-07-13",
+  "completedAt": "2024-11-14",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 40
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 35
+  }
+}

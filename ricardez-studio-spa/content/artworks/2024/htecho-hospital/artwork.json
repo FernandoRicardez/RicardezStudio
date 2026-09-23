@@ -1,0 +1,41 @@
+{
+  "id": "FER-2024-019",
+  "slug": "htecho-hospital",
+  "visibility": "draft",
+  "title": {
+    "es": "hTecho hospital.",
+    "en": null
+  },
+  "startedAt": "2024-09-11",
+  "completedAt": "2024-10-07",
+  "year": 2024,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 25,
+    "widthCm": 20
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 32
+  }
+}

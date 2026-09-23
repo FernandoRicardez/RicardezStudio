@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-003",
+  "slug": "buscando-cuerpos-extranos-con-positrones",
+  "visibility": "draft",
+  "title": {
+    "es": "Buscando cuerpos extraños con positrones",
+    "en": "Searching for Foreign Bodies with Positrons"
+  },
+  "startedAt": "2025-02-18",
+  "completedAt": "2025-05-10",
+  "year": 2025,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 80,
+    "widthCm": 45
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 54
+  }
+}

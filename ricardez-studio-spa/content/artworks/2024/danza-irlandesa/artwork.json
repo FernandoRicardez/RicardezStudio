@@ -1,0 +1,41 @@
+{
+  "id": "FER-2024-024",
+  "slug": "danza-irlandesa",
+  "visibility": "draft",
+  "title": {
+    "es": "Danza irlandesa.",
+    "en": null
+  },
+  "startedAt": "2024-11-10",
+  "completedAt": "2024-12-20",
+  "year": 2024,
+  "medium": {
+    "es": "Mixta oleo y acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 70,
+    "widthCm": 45
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 39
+  }
+}

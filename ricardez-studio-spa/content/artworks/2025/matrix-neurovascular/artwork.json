@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-018",
+  "slug": "matrix-neurovascular",
+  "visibility": "draft",
+  "title": {
+    "es": "Matrix Neurovascular",
+    "en": "Neurovascular Matrix"
+  },
+  "startedAt": "2025-05-16",
+  "completedAt": "2025-05-28",
+  "year": 2025,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 75,
+    "widthCm": 50
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 56
+  }
+}

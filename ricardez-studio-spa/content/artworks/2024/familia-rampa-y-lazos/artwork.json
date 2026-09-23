@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-005",
+  "slug": "familia-rampa-y-lazos",
+  "visibility": "draft",
+  "title": {
+    "es": "Familia, rampa y lazos",
+    "en": "Family, Ramp, and Ties"
+  },
+  "startedAt": "2024-01-13",
+  "completedAt": "2024-02-09",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico e hilo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 100,
+    "widthCm": 150
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 17
+  }
+}

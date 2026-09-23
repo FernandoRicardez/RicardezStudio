@@ -1,0 +1,41 @@
+{
+  "id": "FER-2025-014",
+  "slug": "rosario-y-rodrigo",
+  "visibility": "draft",
+  "title": {
+    "es": "Rosario y Rodrigo",
+    "en": null
+  },
+  "startedAt": "2025-01-08",
+  "completedAt": "2025-04-24",
+  "year": 2025,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 70,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 51
+  }
+}

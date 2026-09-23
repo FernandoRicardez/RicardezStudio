@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-014",
+  "slug": "pantalon-er",
+  "visibility": "draft",
+  "title": {
+    "es": "Pantalon ER",
+    "en": null
+  },
+  "startedAt": "2026-01-22",
+  "completedAt": "2026-04-17",
+  "year": 2026,
+  "medium": {
+    "es": "Oleo sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 60,
+    "widthCm": 40
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 86
+  }
+}

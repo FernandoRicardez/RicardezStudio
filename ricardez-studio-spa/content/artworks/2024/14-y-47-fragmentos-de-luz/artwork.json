@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-004",
+  "slug": "14-y-47-fragmentos-de-luz",
+  "visibility": "draft",
+  "title": {
+    "es": "14 y 47, Fragmentos de luz",
+    "en": "14 & 47, Light Fragments"
+  },
+  "startedAt": "2024-09-14",
+  "completedAt": "2024-10-01",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 91,
+    "widthCm": 156
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 28
+  }
+}

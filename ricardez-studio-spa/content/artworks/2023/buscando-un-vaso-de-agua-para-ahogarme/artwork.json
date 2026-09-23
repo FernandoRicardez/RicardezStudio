@@ -1,0 +1,40 @@
+{
+  "id": "FER-2023-007",
+  "slug": "buscando-un-vaso-de-agua-para-ahogarme",
+  "visibility": "draft",
+  "title": {
+    "es": "Buscando un vaso de agua para ahogarme",
+    "en": "A storm in a glass of water"
+  },
+  "startedAt": "2023-05-09",
+  "completedAt": "2023-05-09",
+  "year": 2023,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 10,
+    "widthCm": 10
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 15
+  }
+}

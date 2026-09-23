@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-023",
+  "slug": "azul-hipofisiario",
+  "visibility": "draft",
+  "title": {
+    "es": "Azul hipofisiario",
+    "en": "Hypophyseal Blue: The Weight of My Humanity"
+  },
+  "startedAt": "2025-07-11",
+  "completedAt": "2025-08-09",
+  "year": 2025,
+  "medium": {
+    "es": "acrilico sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 60,
+    "widthCm": 85
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 61
+  }
+}

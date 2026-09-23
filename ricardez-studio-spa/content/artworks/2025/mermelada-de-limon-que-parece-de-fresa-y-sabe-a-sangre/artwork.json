@@ -1,0 +1,40 @@
+{
+  "id": "FER-2025-029",
+  "slug": "mermelada-de-limon-que-parece-de-fresa-y-sabe-a-sangre",
+  "visibility": "draft",
+  "title": {
+    "es": "Mermelada de limón que parece de fresa y sabe a sangre",
+    "en": "Lemon Jam That Looks Like Strawberry and Tastes Like Blood"
+  },
+  "startedAt": "2025-07-13",
+  "completedAt": "2025-10-30",
+  "year": 2025,
+  "medium": {
+    "es": "acrilico con polvo de marmol sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 40,
+    "widthCm": 40
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 68
+  }
+}

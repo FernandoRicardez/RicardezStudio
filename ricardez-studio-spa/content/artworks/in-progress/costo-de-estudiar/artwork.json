@@ -1,0 +1,42 @@
+{
+  "id": null,
+  "slug": "costo-de-estudiar",
+  "visibility": "draft",
+  "title": {
+    "es": "Costo de estudiar",
+    "en": null
+  },
+  "startedAt": "2025-09-15",
+  "completedAt": null,
+  "year": null,
+  "medium": {
+    "es": "Impresión digital Fine Art sobre papel Hahnemühle Photo Rag 308 g/m² Intervenida con Grabado",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 96,
+    "widthCm": 112
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "completion-date-pending",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 103
+  }
+}

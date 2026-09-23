@@ -1,0 +1,40 @@
+{
+  "id": "FER-2024-008",
+  "slug": "dust-and-wind-nothing-remains-life-goes-on",
+  "visibility": "draft",
+  "title": {
+    "es": "Dust and Wind, Nothing Remains, Life Goes On",
+    "en": "Polvo y viento, nada queda, la vida sigue"
+  },
+  "startedAt": "2024-03-17",
+  "completedAt": "2024-06-09",
+  "year": 2024,
+  "medium": {
+    "es": "acrilico con polvo de marmol sobre lienzo",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 45,
+    "widthCm": 60
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 20
+  }
+}

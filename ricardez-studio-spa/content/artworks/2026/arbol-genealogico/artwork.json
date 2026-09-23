@@ -1,0 +1,41 @@
+{
+  "id": "FER-2026-006",
+  "slug": "arbol-genealogico",
+  "visibility": "draft",
+  "title": {
+    "es": "Arbol genealogico",
+    "en": null
+  },
+  "startedAt": "2025-10-10",
+  "completedAt": "2026-02-07",
+  "year": 2026,
+  "medium": {
+    "es": "Rayo x sobre caja de luz",
+    "en": null
+  },
+  "dimensions": {
+    "heightCm": 60,
+    "widthCm": 42
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": null,
+    "en": null
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "medium-translation-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 78
+  }
+}
