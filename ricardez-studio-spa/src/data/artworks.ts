@@ -12,7 +12,7 @@ export type Artwork = {
   dimensions?: string;
   series?: LocalizedText;
   edition?: string;
-  status: 'available' | 'private-collection' | 'artist-collection' | 'not-available';
+  status?: 'available' | 'private-collection' | 'artist-collection' | 'not-available';
   description?: LocalizedText[];
   images: {
     src: string;
@@ -25,7 +25,7 @@ export type Artwork = {
   publications?: { title: LocalizedText; url?: string }[];
 };
 
-export const artworks: Artwork[] = [
+const legacyArtworks: Artwork[] = [
   {
     id: 'FER-2024-001',
     slug: 'mi-cabeza-da-limones',
@@ -270,3 +270,9 @@ export const artworks: Artwork[] = [
     ],
   },
 ];
+
+export const artworks: Artwork[] = [
+  ...legacyArtworks,
+  ...(publishedArtworkRecords as Artwork[]),
+];
+import publishedArtworkRecords from './published-artworks.generated.json';

@@ -1,0 +1,32 @@
+[
+  {
+    "id": "FER-2026-006",
+    "slug": "arbol-familiar",
+    "title": {
+      "es": "Árbol familiar",
+      "en": "Family Tree"
+    },
+    "year": 2026,
+    "medium": {
+      "es": "Imagen digital intervenida a partir de registros radiográficos, impresión sobre soporte translúcido y montaje en caja de luz",
+      "en": "Digitally altered image derived from radiographic records, printed on translucent material and mounted in a light box"
+    },
+    "dimensions": "60 × 42.5 cm",
+    "description": [
+      {
+        "es": "Árbol genealógico surge a partir de imágenes de rayos X propias, de mi madre y de mis dos abuelas, utilizando registros óseos para construir un cuerpo que remite a la herencia familiar. El fondo integra estudios de imaginología médica propios —tomografías, rayos X y resonancias— como un tejido visual que conecta generaciones.",
+        "en": "Family Tree draws on X-ray images of my own body, my mother’s, and those of both my grandmothers, using skeletal records to construct a body that evokes familial inheritance. The background incorporates my own medical imaging studies—CT scans, X-rays, and MRIs—as a visual fabric connecting generations."
+      }
+    ],
+    "images": [
+      {
+        "src": "/assets/artworks/2026/arbol-familiar/ArbolGenealogico_FerRicardez_FrameWeb.jpg",
+        "alt": {
+          "es": "Árbol familiar de Fer Ricárdez, montaje en caja de luz",
+          "en": "Family Tree by Fer Ricárdez, mounted in a light box"
+        },
+        "kind": "artwork"
+      }
+    ]
+  }
+]

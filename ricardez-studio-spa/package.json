@@ -25,6 +25,7 @@
   },
   "scripts": {
     "dev": "next dev",
+    "prebuild": "npm run artwork:sync",
     "build": "next build",
     "start": "next start",
     "test": "echo \"No tests configured\"",
@@ -33,7 +34,8 @@
     "certificate:qr": "node scripts/generate-certificate-qr.js",
     "artwork:import": "node scripts/import-artwork-inventory.js",
     "artwork:new": "node scripts/create-artwork.js",
-    "artwork:translate-media": "node scripts/translate-artwork-media.js"
+    "artwork:translate-media": "node scripts/translate-artwork-media.js",
+    "artwork:sync": "node scripts/sync-published-artworks.js"
   },
   "devDependencies": {
     "@types/qrcode": "^1.5.5"

@@ -27,7 +27,7 @@ export default function CatalogPage() {
     years: Array.from(new Set(artworks.map((artwork) => artwork.year))).sort((a, b) => b - a),
     media: Array.from(new Set(artworks.map((artwork) => localize(artwork.medium, language)))).sort(),
     series: Array.from(new Set(artworks.flatMap((artwork) => artwork.series ? [localize(artwork.series, language)] : []))).sort(),
-    statuses: Array.from(new Set(artworks.map((artwork) => artwork.status))),
+    statuses: Array.from(new Set(artworks.flatMap((artwork) => artwork.status ? [artwork.status] : []))),
   }), [language]);
 
   const visibleArtworks = useMemo(() => {

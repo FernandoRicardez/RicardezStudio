@@ -13,12 +13,12 @@ export default function ArtworkDetailPage({ artwork, previous, next }: InferGetS
   const isEs = language === 'es';
   const title = localize(artwork.title, language);
   const medium = localize(artwork.medium, language);
-  const status = {
+  const status = artwork.status ? {
     available: isEs ? 'Disponible' : 'Available',
     'private-collection': isEs ? 'Colección privada' : 'Private collection',
     'artist-collection': isEs ? 'Colección del artista' : 'Artist collection',
     'not-available': isEs ? 'No disponible' : 'Not available',
-  }[artwork.status];
+  }[artwork.status] : null;
 
   return (
     <article className={styles.page}>
@@ -35,7 +35,7 @@ export default function ArtworkDetailPage({ artwork, previous, next }: InferGetS
             {artwork.dimensions && <div><dt>{isEs ? 'Dimensiones' : 'Dimensions'}</dt><dd>{artwork.dimensions}</dd></div>}
             {artwork.series && <div><dt>{isEs ? 'Serie' : 'Series'}</dt><dd>{localize(artwork.series, language)}</dd></div>}
             {artwork.edition && <div><dt>{isEs ? 'Edición' : 'Edition'}</dt><dd>{artwork.edition}</dd></div>}
-            <div><dt>{isEs ? 'Estado' : 'Status'}</dt><dd>{status}</dd></div>
+            {status && <div><dt>{isEs ? 'Estado' : 'Status'}</dt><dd>{status}</dd></div>}
           </dl>
         </header>
       </div>
