@@ -1,0 +1,40 @@
+{
+  "id": "FER-2026-006",
+  "slug": "arbol-familiar",
+  "visibility": "draft",
+  "title": {
+    "es": "Árbol familiar",
+    "en": null
+  },
+  "startedAt": "2025-10-10",
+  "completedAt": "2026-02-07",
+  "year": 2026,
+  "medium": {
+    "es": "Imagen digital intervenida a partir de registros radiográficos, impresión sobre soporte translúcido y montaje en caja de luz",
+    "en": "Digitally altered image derived from radiographic records, printed on translucent material and mounted in a light box"
+  },
+  "dimensions": {
+    "heightCm": 60,
+    "widthCm": 42.5
+  },
+  "status": null,
+  "series": null,
+  "edition": null,
+  "descriptions": {
+    "es": "Árbol genealógico surge a partir de imágenes de rayos X propias, de mi madre y de mis dos abuelas, utilizando registros óseos para construir un cuerpo que remite a la herencia familiar. El fondo integra estudios de imaginología médica propios —tomografías, rayos X y resonancias— como un tejido visual que conecta generaciones.",
+    "en": "Family Tree draws on X-ray images of my own body, my mother’s, and those of both my grandmothers, using skeletal records to construct a body that evokes familial inheritance. The background incorporates my own medical imaging studies—CT scans, X-rays, and MRIs—as a visual fabric connecting generations."
+  },
+  "images": [],
+  "exhibitions": [],
+  "recognitions": [],
+  "publications": [],
+  "review": [
+    "missing-english-title",
+    "image-needed",
+    "publication-review-needed"
+  ],
+  "source": {
+    "file": "artworks.tsv",
+    "row": 78
+  }
+}

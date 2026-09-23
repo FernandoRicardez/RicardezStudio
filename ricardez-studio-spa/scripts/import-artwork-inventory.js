@@ -41,6 +41,7 @@ const knownIds = new Map([
   ['mi cabeza da limones', 'FER-2024-001'],
   ['sustento electrorgancio', 'FER-2025-001'],
   ['buscando cuerpos extraños con positrones', 'FER-2025-003'],
+  ['árbol familiar', 'FER-2026-006'],
 ]);
 
 const counters = new Map([[2022, 0], [2023, 1], [2024, 5], [2025, 3], [2026, 0]]);
@@ -58,10 +59,15 @@ const rows = lines.slice(1).map((line, index) => {
   usedSlugs.add(`${folderYear}/${slug}`);
 
   let id = knownIds.get(titleEs.toLocaleLowerCase('es')) || null;
-  if (!id && typeof folderYear === 'number') {
-    const next = (counters.get(folderYear) || 0) + 1;
-    counters.set(folderYear, next);
-    id = `FER-${folderYear}-${String(next).padStart(3, '0')}`;
+  if (typeof folderYear === 'number') {
+    if (id) {
+      const knownSequence = Number(id.split('-').at(-1));
+      counters.set(folderYear, Math.max(counters.get(folderYear) || 0, knownSequence));
+    } else {
+      const next = (counters.get(folderYear) || 0) + 1;
+      counters.set(folderYear, next);
+      id = `FER-${folderYear}-${String(next).padStart(3, '0')}`;
+    }
   }
 
   const review = [];

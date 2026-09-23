@@ -11,7 +11,7 @@
   "year": 2025,
   "medium": {
     "es": "Oleo sobre lienzo",
-    "en": null
+    "en": "Oil on canvas"
   },
   "dimensions": {
     "heightCm": 70,
@@ -31,7 +31,6 @@
   "review": [
     "missing-english-title",
     "image-needed",
-    "medium-translation-needed",
     "publication-review-needed"
   ],
   "source": {

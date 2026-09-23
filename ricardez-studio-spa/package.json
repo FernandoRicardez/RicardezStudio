@@ -32,7 +32,8 @@
     "typecheck": "tsc --noEmit",
     "certificate:qr": "node scripts/generate-certificate-qr.js",
     "artwork:import": "node scripts/import-artwork-inventory.js",
-    "artwork:new": "node scripts/create-artwork.js"
+    "artwork:new": "node scripts/create-artwork.js",
+    "artwork:translate-media": "node scripts/translate-artwork-media.js"
   },
   "devDependencies": {
     "@types/qrcode": "^1.5.5"

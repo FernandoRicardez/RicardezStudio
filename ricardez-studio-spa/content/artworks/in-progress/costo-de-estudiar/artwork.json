@@ -11,7 +11,7 @@
   "year": null,
   "medium": {
     "es": "Impresión digital Fine Art sobre papel Hahnemühle Photo Rag 308 g/m² Intervenida con Grabado",
-    "en": null
+    "en": "Fine art digital print on Hahnemühle Photo Rag 308 gsm paper, hand-finished with engraving"
   },
   "dimensions": {
     "heightCm": 96,
@@ -32,7 +32,6 @@
     "missing-english-title",
     "completion-date-pending",
     "image-needed",
-    "medium-translation-needed",
     "publication-review-needed"
   ],
   "source": {

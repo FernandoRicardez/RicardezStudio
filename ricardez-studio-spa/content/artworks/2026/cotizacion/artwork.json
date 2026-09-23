@@ -11,7 +11,7 @@
   "year": 2026,
   "medium": {
     "es": "acrilico sobre lienzo",
-    "en": null
+    "en": "Acrylic on canvas"
   },
   "dimensions": {
     "heightCm": 180,
@@ -31,7 +31,6 @@
   "review": [
     "missing-english-title",
     "image-needed",
-    "medium-translation-needed",
     "publication-review-needed"
   ],
   "source": {
